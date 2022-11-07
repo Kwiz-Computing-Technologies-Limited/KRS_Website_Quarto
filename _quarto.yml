@@ -1,8 +1,13 @@
 project:
   type: website
+  resources: 
+    -"*.jpeg"
 
 website:
   title: "Kwiz Research Services"
+  cookie-consent: false
+  type: implied
+  palette: light
   
 
   navbar:

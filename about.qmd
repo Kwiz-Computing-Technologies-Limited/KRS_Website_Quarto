@@ -2,8 +2,11 @@
 title: "About"
 ---
 
-<h1> About this site </h1>
+<h2> Kwizera Jean Victor:- Founder, Data Scientist</h2> 
 
-```{r}
-1 + 1
-```
+<div> <img src="images/kwizera.jpeg" title="Kwizera Jean Victor:- Founder, Data Scientist" float=right width=120></img>
+Kwizera is a Data Scientist with a background in Actuarial Science and Data Science with over 6 years experience in Statistical Programming. He is passionate about open source technologies, mathematical computing and research. 
+
+Jean has worked in research and business consulting, simulating and modeling ecological processes and Forex trading strategies, building forest inventory models, analyzing credit markets and building dashboards. He is a problem solver with keen interest in algorithm development for Automation, Integration and Mathematical Computing. 
+
+<a href="mailto: jeankwizera@kwizresearch.com">jeankwizera@kwizresearch.com</a></div>

@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "demos.html",
+    "href": "demos.html",
+    "title": "Demos",
+    "section": "",
+    "text": "Stay Tuned for Demo Updates!!"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Home",
@@ -11,34 +18,20 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "demos.html",
-    "href": "demos.html",
-    "title": "Demos",
-    "section": "",
-    "text": "This is a list of the demo projects"
-  },
-  {
-    "objectID": "Demos.html",
-    "href": "Demos.html",
-    "title": "Kwiz Research Services",
-    "section": "",
-    "text": "This is a list of the demo projects"
-  },
-  {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Kwiz Research Services",
-    "section": "",
-    "text": "ggg"
+    "text": "Kwizera is a Data Scientist with a background in Actuarial Science and Data Science with over 6 years experience in Statistical Programming. He is passionate about open source technologies, mathematical computing and research.\nJean has worked in research and business consulting, simulating and modeling ecological processes and Forex trading strategies, building forest inventory models, analyzing credit markets and building dashboards. He is a problem solver with keen interest in algorithm development for Automation, Integration and Mathematical Computing.\njeankwizera@kwizresearch.com"
   },
   {
     "objectID": "data.html",
     "href": "data.html",
-    "title": "Kwiz Research Services",
+    "title": "Data Solutions",
     "section": "",
-    "text": "hhh"
+    "text": "Data Solutions Coming Soon!!"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research Solutions",
+    "section": "",
+    "text": "Data and Software Solutions"
   }
 ]
