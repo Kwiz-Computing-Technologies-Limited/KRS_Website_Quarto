@@ -1,0 +1,32 @@
+project:
+  type: website
+
+website:
+  title: "Kwiz Research Services"
+  
+
+  navbar:
+    background: rgba(166, 145, 92, 1)
+    search: true
+    right:
+      - index.qmd
+      - about.qmd
+      - text: "Services"
+        menu: 
+          - data.qmd
+          - research.qmd
+      - demos.qmd
+
+format:
+  html:
+    backgroundcolor: white
+    mainfont: cursive
+    fontcolor: black
+    linkcolor: rgba(166, 145, 92, 1)
+    
+    page-layout: full
+    css: styles.css
+    toc: true
+
+editor: visual
+

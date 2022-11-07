@@ -1,0 +1,9 @@
+---
+title: "About"
+---
+
+<h1> About this site </h1>
+
+```{r}
+1 + 1
+```

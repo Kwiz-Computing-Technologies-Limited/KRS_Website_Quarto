@@ -1,0 +1,26 @@
+/* css styles */
+h1.title {
+  font-size: 24px;
+  color: black;
+}
+
+h1 { /* Header 1 */
+  font-size: 24px;
+  color: rgba(166, 145, 92, 1);
+}
+
+h1 { /* Header 2 */
+  font-size: 18px;
+  color: black;
+}
+
+.navbar {
+  background-color:rgba(0, 0, 0, 0.05);
+  border-color:rgba(166, 145, 92, 1);
+}
+
+.navbar-brand {
+color:rgba(166, 145, 92, 1)!important;
+}
+
+

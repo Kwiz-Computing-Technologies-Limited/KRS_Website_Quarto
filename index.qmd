@@ -1,0 +1,15 @@
+---
+title: "Home"
+---
+
+At Kwiz Research Services, we build customized data and software solutions for business and research. Our goal is to accelerate the adoption of data driven decision processes, integrating the best technologies for data management, processing and reporting.
+
+We:
+
+-   Consult on and Implement Mathematical Computing solutions
+-   Automate Analytics and Management workflows
+-   Build Scalable and Portable Software products
+-   Develop and Deploy On-premise and Cloud Solutions
+-   Design and Implement UX/UI solutions
+
+We seamlessly integrate popular programming and data management tools such as R programming, Python, Javascript, CSS, HTML, React, Database solutions (PostgreSQL/MySQL/MongoDB/Oracle etc), guaranteeing robust solutions for your computing and management needs.
