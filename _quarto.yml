@@ -9,8 +9,7 @@ website:
   type: implied
   palette: light
   
-  body-footer: '&#169;2022: Kwiz Research Services'
-  font-size: 10
+  body-footer: '&#169;2022: Kwiz Research Services, Built with Quarto'
 
   navbar:
     background: rgba(166, 145, 92, 1)
