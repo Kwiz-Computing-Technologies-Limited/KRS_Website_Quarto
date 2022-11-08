@@ -13,4 +13,4 @@ We:
 -   Develop and Deploy On-premise and Cloud Solutions
 -   Design and Implement UX/UI solutions
 
-We seamlessly integrate popular programming and data management tools such as R programming, Python, Javascript, CSS, HTML, React, Database solutions (PostgreSQL/MySQL/MongoDB/Oracle etc), guaranteeing robust solutions for your computing and management needs.
+We seamlessly integrate popular programming and data management tools such as R programming, Python, Javascript, CSS, HTML, React and Database solutions (PostgreSQL/MySQL/MongoDB/Oracle etc), guaranteeing robust solutions for your computing and management needs.

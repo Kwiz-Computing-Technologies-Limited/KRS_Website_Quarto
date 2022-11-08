@@ -5,15 +5,26 @@ project:
 
 website:
   title: "Kwiz Research Services"
+  page-navigation: true
   cookie-consent: false
   type: implied
   palette: light
   
-  body-footer: '&#169;2022: Kwiz Research Services, Built with Quarto'
+  search: 
+    location: navbar
+    type: textbox
+    
+  page-footer: 
+    left: '&#169;2022: Kwiz Research Services, Built with Quarto'
+    right: 
+      - icon: github
+        href: https://github.com/Kwiz-Research-Services
+      - icon: linkedin
+        href: https://www.linkedin.com/company/kwizresearch/
 
   navbar:
     background: rgba(166, 145, 92, 1)
-    search: true
+    
     right:
       - index.qmd
       - about.qmd
@@ -22,6 +33,7 @@ website:
           - data.qmd
           - research.qmd
       - demos.qmd
+        
 
 format:
   html:
