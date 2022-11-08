@@ -2,7 +2,7 @@ project:
   type: website
   resources: 
     -"*.jpeg"
-
+  
 website:
   title: "Kwiz Research Services"
   page-navigation: true
