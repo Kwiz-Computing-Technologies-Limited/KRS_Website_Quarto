@@ -32,7 +32,11 @@ website:
         menu: 
           - data.qmd
           - research.qmd
-      - demos.qmd
+      - text: "Demos"
+        menu: 
+          - business_dashboard.qmd
+          - mapping_dashboard.qmd
+          - survival_dashboard.qmd
         
 
 format:
