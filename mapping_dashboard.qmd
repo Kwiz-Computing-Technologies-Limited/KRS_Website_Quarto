@@ -1,8 +1,8 @@
 ---
 title: "Species Mapping Dashboard"
+toc: false
 ---
 
 ## Species Mapping Dashboard
 
-<iframe height="400" width="100%" frameborder="no" src="https://zp1mwp-jean0victor-kwizera.shinyapps.io/Appsilon_code_challenge/"> </iframe>
-
+<iframe height="900" width="100%" frameborder="1" src="https://zp1mwp-jean0victor-kwizera.shinyapps.io/Appsilon_code_challenge/"> </iframe>

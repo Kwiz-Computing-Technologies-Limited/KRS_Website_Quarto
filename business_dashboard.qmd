@@ -1,7 +1,8 @@
 ---
 title: "Business Dashboard"
+toc: false
 ---
 
 ## Business Dashboard
 
-<iframe height="400" width="100%" frameborder="no" src="https://jean-kwizera-vic.shinyapps.io/Dashboard/"> </iframe>
+<iframe height="900" width="100%" frameborder="1" src="https://jean-kwizera-vic.shinyapps.io/Dashboard/"> </iframe>
