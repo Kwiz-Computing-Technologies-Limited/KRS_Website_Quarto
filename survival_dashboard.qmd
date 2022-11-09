@@ -4,4 +4,4 @@ title: "Survival Analysis Calculater"
 
 ## Survival Analysis Calculater
 
-<iframe height="400" width="100%" frameborder="no" src="https://zp1mwp-jean0victor-kwizera.shinyapps.io/SurvivalAnalysisCalculator/"> </iframe>
+<iframe height="100%" width="100%" frameborder="no" src="https://zp1mwp-jean0victor-kwizera.shinyapps.io/SurvivalAnalysisCalculator/"> </iframe>
