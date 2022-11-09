@@ -4,5 +4,5 @@ title: "Species Mapping Dashboard"
 
 ## Species Mapping Dashboard
 
-<iframe height="400" width="100%" frameborder="no" src="https://zp1mwp-jean0victor-kwizera.shinyapps.io/Appsilon_code_challenge/"> </iframe>
+<iframe height="100%" width="100%" frameborder="no" src="https://zp1mwp-jean0victor-kwizera.shinyapps.io/Appsilon_code_challenge/"> </iframe>
 
