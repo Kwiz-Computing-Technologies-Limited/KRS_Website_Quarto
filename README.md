@@ -1,3 +1,3 @@
 # KRS_Website_Quarto
 
-visit: kwiresearch.com
+<a href="kwiresearch.com">visit: Kwiz Research Services</a>
