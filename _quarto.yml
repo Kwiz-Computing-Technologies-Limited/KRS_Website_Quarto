@@ -44,7 +44,7 @@ format:
     
     page-layout: full
     css: styles.css
-    toc: true
+    toc: false
 
 editor: visual
 
