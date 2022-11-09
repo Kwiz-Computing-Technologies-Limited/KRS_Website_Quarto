@@ -1,3 +1,3 @@
 # KRS_Website_Quarto
 
-<a href="kwiresearch.com">visit: Kwiz Research Services</a>
+<a href="https://main.db4cmr7t00gmz.amplifyapp.com">visit: Kwiz Research Services</a>
