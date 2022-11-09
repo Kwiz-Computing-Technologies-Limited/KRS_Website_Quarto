@@ -1,5 +1,6 @@
 ---
 title: "Survival Analysis Calculater"
+toc: false
 ---
 
 ## Survival Analysis Calculater
