@@ -42,7 +42,7 @@ website:
 format:
   html:
     backgroundcolor: white
-    mainfont: cursive
+    mainfont: Comic Sans MS
     fontcolor: black
     linkcolor: rgba(166, 145, 92, 1)
     
