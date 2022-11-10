@@ -5,4 +5,4 @@ toc: false
 
 ## Business Dashboard
 
-<iframe height="900" width="100%" frameborder="1" src="https://jean-kwizera-vic.shinyapps.io/Dashboard/"> </iframe>
+<iframe height="1200" width="100%" frameborder="1" src="https://jean-kwizera-vic.shinyapps.io/Dashboard/"> </iframe>
