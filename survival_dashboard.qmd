@@ -1,8 +1,8 @@
 ---
-title: "Survival Analysis Calculater"
+title: "Survival Analysis Calculator"
 toc: false
 ---
 
-## Survival Analysis Calculater
+## Survival Analysis Calculator
 
 <iframe height="1800" width="100%" frameborder="1" src="https://zp1mwp-jean0victor-kwizera.shinyapps.io/SurvivalAnalysisCalculator/"> </iframe>
