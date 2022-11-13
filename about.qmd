@@ -9,4 +9,5 @@ Kwizera is a Data Scientist with a background in Actuarial Science and Data Scie
 
 Jean has worked in research and business consulting, simulating and modeling ecological processes and Forex trading strategies, building forest inventory models, analyzing credit markets and building dashboards. He is a problem solver with keen interest in algorithm development for Automation, Integration and Mathematical Computing. 
 
-<a href="mailto: jeankwizera@kwizresearch.com">jeankwizera@kwizresearch.com</a></div>
+<a href="mailto: jeankwizera@kwizresearch.com">jeankwizera@kwizresearch.com</a>
+</div>
