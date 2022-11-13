@@ -32,6 +32,7 @@ website:
         menu: 
           - data.qmd
           - research.qmd
+          - training.qmd
       - text: "Demos"
         menu: 
           - business_dashboard.qmd

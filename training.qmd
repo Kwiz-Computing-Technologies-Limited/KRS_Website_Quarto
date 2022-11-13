@@ -1,0 +1,5 @@
+---
+title: "Training"
+---
+
+We offer training to Individuals and Institutions on data analysis and software development integrating R programming and other software platforms including Python, Javascript, CSS, HTML, React and Database solutions.
