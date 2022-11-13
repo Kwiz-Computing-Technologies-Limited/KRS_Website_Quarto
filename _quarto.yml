@@ -15,7 +15,7 @@ website:
     type: textbox
     
   page-footer: 
-    left: '&#169;2022: Kwiz Research Services, Built with Quarto'
+    left: '&#169;2022: Kwiz Research Services, Built with Quarto: (NOTE - Development of this site ongoing)'
     right: 
       - icon: github
         href: https://github.com/Kwiz-Research-Services
