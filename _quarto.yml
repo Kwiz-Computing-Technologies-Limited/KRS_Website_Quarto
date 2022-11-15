@@ -15,6 +15,9 @@ website:
     type: textbox
     
   page-footer: 
+    background: "#343434"
+    foreground: rgba(300, 200, 100, 1)
+    
     left: '&#169;2022: Kwiz Research Services, Built with Quarto: (NOTE - Development of this site ongoing)'
     right: 
       - icon: github
@@ -23,7 +26,8 @@ website:
         href: https://www.linkedin.com/company/kwizresearch/
 
   navbar:
-    background: rgba(166, 145, 92, 1)
+    foreground: rgba(300, 200, 100, 10)
+    logo: images/krs_logo_4.png
     
     right:
       - index.qmd
@@ -42,7 +46,8 @@ website:
 
 format:
   html:
-    backgroundcolor: white
+    theme: sandstone
+    backgroundcolor: rgba(166, 145, 92, 0.1);
     mainfont: Comic Sans MS
     fontcolor: black
     linkcolor: rgba(166, 145, 92, 1)

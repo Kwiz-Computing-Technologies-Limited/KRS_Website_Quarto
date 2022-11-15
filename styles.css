@@ -8,35 +8,31 @@
   font-size: 16px;
   color: black;
   text-decoration: underline;     
-  text-decoration-color: rgba(166, 145, 92, 1);
+  text-decoration-color: rgba(300, 200, 100, 1);
 }
 
 h1 { /* Header 1 */
   font-size: 24px;
-  color: rgba(166, 145, 92, 1);
+  color: rgba(300, 200, 100, 1);
 }
 
 h2 { /* Header 2 */
   font-size: 18px;
   color: black;
   text-decoration: underline;     
-  text-decoration-color: rgba(166, 145, 92, 1);
+  text-decoration-color: rgba(300, 200, 100, 1);
 }
 
 .navbar {
-  background-color:rgba(0, 0, 0, 0.05);
-  border-color:rgba(166, 145, 92, 1);
+  background-color:#343434;
+  border-color:rgba(300, 200, 100, 1);
 }
 
 .navbar-brand {
-color:rgba(166, 145, 92, 1)!important;
+color:rgba(300, 200, 100, 1)!important;
 }
 
 img{
   float: left;
   margin: 5px;
 }
-
-
-
-
