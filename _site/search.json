@@ -7,11 +7,18 @@
     "text": "Research Solutions Coming Soon!!"
   },
   {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "Kwiz Research Services",
+    "section": "",
+    "text": "We:"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Home",
+    "title": "Research and Software Solutions",
     "section": "",
-    "text": "We:\n\nConsult on and Implement Mathematical Computing solutions\nAutomate Analytics and Management workflows\nBuild Scalable and Portable Software products\nDevelop and Deploy On-premise and Cloud Solutions\nDesign and Implement UX/UI solutions\n\nWe seamlessly integrate popular programming and data management tools such as R programming, Python, Javascript, CSS, HTML, React and Database solutions (PostgreSQL/MySQL/MongoDB/Oracle etc), guaranteeing robust solutions for your computing and management needs."
+    "text": "Kwiz Computing Technologies Limited (Kwiz Research) is a research and software consulting company building solutions and infrastructure around the R programming Language.\nWhat we do:\nSoftware Solutions\n\nbuild R/Shiny web applications for enterprise that;\n\nintegrate API calls to provision, deploy and manage secure and scalable cloud (AWS) resources\nintegrate Databases and solutions written in other popular languages (e.g Python)\n\ndesign and implement algorithms to automate Management and High Performance Mathematical Computing workflows\nauthor and publish with scientific markdown high-quality (e.g articles, reports, websites, blogs, … in HTML, PDF, MS Word, …)\ndeploy static and interactive web solutions created in R\n\nResearch Solutions\n\nconsult on research methodologies and evaluation metrics\nreproducible data processing, analysis and the synthesis and presentation of results\n\n\nThe Team\n\n\nKwizera Jean Victor: Co-Founder\n\n Kwizera is an R Developer, Data Scientist, Researcher; with a background in Actuarial Science and Data Science, and with over 6 years experience Programming in and around the R programming language. He is passionate about open source technologies, mathematical computing and research.\nKwizera has worked in research and business consulting, including:\n\nmodeling and simulating ecological processes and financial trading strategies,\nevaluating sample data biases,\nbuilding forest inventory and climate models,\nanalyzing credit markets\n\nbuilding interactive dashboards and\nautomating workflows\n\nHe is a problem solver with keen interest in Automation, Integration, Mathematical Computing and Cloud Solutions.\njeankwizera@kwizresearch.com\n\n\n\nIragena Vincent De Paul: Co-Founder\n\n Iragena is a graduate of Economics from the University of Nairobi. He is passionate about Project Management, operations and policy. He also has interest in software and music and he invests some of his time developing electronic music.\nvindepaul@kwizresearch.com"
   },
   {
     "objectID": "about.html",

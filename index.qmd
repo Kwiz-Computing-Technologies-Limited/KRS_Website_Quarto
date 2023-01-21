@@ -1,16 +1,63 @@
 ---
-title: "Home"
-subtitle: "Data and Software Solutions"
+title: "Research and Software Solutions"
 ---
 
-At Kwiz Research Services, we build customized data and software solutions for business and research. Our goal is to accelerate the adoption of data driven decision processes, integrating the best technologies for data management, processing and reporting.
+**Kwiz Computing Technologies Limited (*Kwiz Research*)** is a research and software consulting company building solutions and infrastructure around the *R programming Language*. 
 
-We:
+What we do:
 
--   Consult on and Implement Mathematical Computing solutions
--   Automate Analytics and Management workflows
--   Build Scalable and Portable Software products
--   Develop and Deploy On-premise and Cloud Solutions
--   Design and Implement UX/UI solutions
+**Software Solutions**
 
-We seamlessly integrate popular programming and data management tools such as R programming, Python, Javascript, CSS, HTML, React and Database solutions (PostgreSQL/MySQL/MongoDB/Oracle etc), guaranteeing robust solutions for your computing and management needs.
+- build *R/Shiny* web applications for enterprise that;
+    * integrate API calls to provision, deploy and manage secure and scalable cloud (*AWS*) resources
+    * integrate Databases and solutions written in other popular languages (e.g *Python*)
+    
+- design and implement algorithms to automate *Management* and High *Performance Mathematical Computing* workflows
+
+- author and publish with *scientific markdown*  high-quality (e.g *articles*, *reports*, *websites*, *blogs*, ... in *HTML, PDF, MS Word, ...*)
+
+- deploy static and interactive web solutions created in R
+
+**Research Solutions**
+
+- consult on research methodologies and evaluation metrics
+
+- reproducible data processing, analysis and the synthesis and presentation of results
+
+
+# The Team
+
+<div> 
+<h2> Kwizera Jean Victor: Co-Founder </h2>
+
+<img src="images/kwizera.jpeg" title="Kwizera Jean Victor:- Co-Founder" float=right width=120></img>
+  Kwizera is an R Developer, Data Scientist, Researcher; with a background in Actuarial Science and Data Science, and with over 6 years experience Programming in and around the R programming language. He is passionate about open source technologies, mathematical computing and research. 
+
+  Kwizera has worked in research and business consulting, including: 
+  
+* *modeling and simulating ecological processes* and *financial trading strategies*,
+* *evaluating sample data biases*, 
+* *building forest inventory* and *climate models*, 
+* *analyzing credit markets*  
+* *building interactive dashboards* and 
+* *automating workflows*
+    
+He is a problem solver with keen interest in Automation, Integration, Mathematical Computing and Cloud Solutions. 
+
+<a href="mailto: jeankwizera@kwizresearch.com">jeankwizera@kwizresearch.com</a>
+</div>
+
+
+<div> 
+<h2> Iragena Vincent De Paul: Co-Founder </h2>
+
+<img src="" title="Iragena Vincent De Paul:- Co-Founder" float=right width=120></img>
+  Iragena is a graduate of Economics from the University of Nairobi. He is passionate about Project Management, operations and policy development. He also has interests in software and music and he invests some of his time developing electronic music.
+  
+<a href="mailto: vindepaul@kwizresearch.com">vindepaul@kwizresearch.com</a>
+</div>
+
+
+
+
+

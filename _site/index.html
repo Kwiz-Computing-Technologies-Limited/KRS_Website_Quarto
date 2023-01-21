@@ -2,19 +2,24 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.0.36">
+<meta name="generator" content="quarto-1.2.269">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Kwiz Research Services - Home</title>
+<title>Kwiz Research - Research and Software Solutions</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-span.underline{text-decoration: underline;}
-div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
 </style>
 
 
@@ -64,23 +69,29 @@ ul.task-list{list-style: none;}
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <a class="navbar-brand" href="./index.html">
-    <img src="./images/krs_logo_4.png" alt="">
-    <span class="navbar-title">Kwiz Research Services</span>
-  </a>
+      <div class="navbar-brand-container">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./images/krs_logo_4.png" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Kwiz Research</span>
+    </a>
+  </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page">Home</a>
+    <a class="nav-link active" href="./index.html" aria-current="page">
+ <span class="menu-text">Research and Software Solutions</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./about.html">About</a>
-  </li>  
+  <li class="dropdown-header">
+ <span class="menu-text">about.qmd</span></li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-services" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-services" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Services</span>
+    </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-services">    
         <li>
     <a class="dropdown-item" href="./data.html">
@@ -97,7 +108,9 @@ ul.task-list{list-style: none;}
     </ul>
   </li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-demos" role="button" data-bs-toggle="dropdown" aria-expanded="false">Demos</a>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-demos" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Demos</span>
+    </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-demos">    
         <li>
     <a class="dropdown-item" href="./business_dashboard.html">
@@ -129,8 +142,7 @@ ul.task-list{list-style: none;}
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Home</h1>
-<p class="subtitle lead">Data and Software Solutions</p>
+<h1 class="title">Research and Software Solutions</h1>
 </div>
 
 
@@ -138,24 +150,61 @@ ul.task-list{list-style: none;}
 <div class="quarto-title-meta">
 
     
+  
     
   </div>
   
 
 </header>
 
-<p>At Kwiz Research Services, we build customized data and software solutions for business and research. Our goal is to accelerate the adoption of data driven decision processes, integrating the best technologies for data management, processing and reporting.</p>
-<p>We:</p>
+<p><strong>Kwiz Computing Technologies Limited (<em>Kwiz Research</em>)</strong> is a research and software consulting company building solutions and infrastructure around the <em>R programming Language</em>.</p>
+<p>What we do:</p>
+<p><strong>Software Solutions</strong></p>
 <ul>
-<li>Consult on and Implement Mathematical Computing solutions</li>
-<li>Automate Analytics and Management workflows</li>
-<li>Build Scalable and Portable Software products</li>
-<li>Develop and Deploy On-premise and Cloud Solutions</li>
-<li>Design and Implement UX/UI solutions</li>
+<li><p>build <em>R/Shiny</em> web applications for enterprise that;</p>
+<ul>
+<li>integrate API calls to provision, deploy and manage secure and scalable cloud (<em>AWS</em>) resources</li>
+<li>integrate Databases and solutions written in other popular languages (e.g <em>Python</em>)</li>
+</ul></li>
+<li><p>design and implement algorithms to automate <em>Management</em> and High <em>Performance Mathematical Computing</em> workflows</p></li>
+<li><p>author and publish with <em>scientific markdown</em> high-quality (e.g <em>articles</em>, <em>reports</em>, <em>websites</em>, <em>blogs</em>, … in <em>HTML, PDF, MS Word, …</em>)</p></li>
+<li><p>deploy static and interactive web solutions created in R</p></li>
 </ul>
-<p>We seamlessly integrate popular programming and data management tools such as R programming, Python, Javascript, CSS, HTML, React and Database solutions (PostgreSQL/MySQL/MongoDB/Oracle etc), guaranteeing robust solutions for your computing and management needs.</p>
+<p><strong>Research Solutions</strong></p>
+<ul>
+<li><p>consult on research methodologies and evaluation metrics</p></li>
+<li><p>reproducible data processing, analysis and the synthesis and presentation of results</p></li>
+</ul>
+<section id="the-team" class="level1">
+<h1>The Team</h1>
+<div>
+<h2 class="anchored" data-anchor-id="the-team">
+Kwizera Jean Victor: Co-Founder
+</h2>
+<p><img src="images/kwizera.jpeg" title="Kwizera Jean Victor:- Co-Founder" float="right" width="120"> Kwizera is an R Developer, Data Scientist, Researcher; with a background in Actuarial Science and Data Science, and with over 6 years experience Programming in and around the R programming language. He is passionate about open source technologies, mathematical computing and research.</p>
+<p>Kwizera has worked in research and business consulting, including:</p>
+<ul>
+<li><em>modeling and simulating ecological processes</em> and <em>financial trading strategies</em>,</li>
+<li><em>evaluating sample data biases</em>,</li>
+<li><em>building forest inventory</em> and <em>climate models</em>,</li>
+<li><em>analyzing credit markets</em><br>
+</li>
+<li><em>building interactive dashboards</em> and</li>
+<li><em>automating workflows</em></li>
+</ul>
+<p>He is a problem solver with keen interest in Automation, Integration, Mathematical Computing and Cloud Solutions.</p>
+<p><a href="mailto: jeankwizera@kwizresearch.com">jeankwizera@kwizresearch.com</a></p>
+</div>
+<div>
+<h2 class="anchored">
+Iragena Vincent De Paul: Co-Founder
+</h2>
+<p><img src="" title="Iragena Vincent De Paul:- Co-Founder" float="right" width="120"> Iragena is a graduate of Economics from the University of Nairobi. He is passionate about Project Management, operations and policy. He also has interest in software and music and he invests some of his time developing electronic music.</p>
+<p><a href="mailto: vindepaul@kwizresearch.com">vindepaul@kwizresearch.com</a></p>
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -199,7 +248,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -227,38 +293,57 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   for (var i=0; i<noterefs.length; i++) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
-      let href = ref.getAttribute('href');
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
     });
   }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">©2022: Kwiz Research Services, Built with Quarto: (NOTE - Development of this site ongoing)</div>   
+    <div class="nav-footer-left">©2023: Kwiz Research, Built in R with Quarto</div>   
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">

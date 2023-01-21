@@ -4,11 +4,9 @@ project:
     -"*.jpeg"
   
 website:
-  title: "Kwiz Research Services"
+  title: "Kwiz Research"
   page-navigation: true
   cookie-consent: false
-  type: implied
-  palette: light
   
   search: 
     location: navbar
@@ -18,7 +16,7 @@ website:
     background: "#343434"
     foreground: rgba(300, 200, 100, 1)
     
-    left: '&#169;2022: Kwiz Research Services, Built with Quarto: (NOTE - Development of this site ongoing)'
+    left: '&#169;2023: Kwiz Research, Built in R with Quarto'
     right: 
       - icon: github
         href: https://github.com/Kwiz-Research-Services
