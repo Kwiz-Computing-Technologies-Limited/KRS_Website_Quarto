@@ -1,63 +1,61 @@
 ---
-title: "Research and Software Solutions"
+title: "Enterprise Applications and Big Data Solutions"
+description: "Experts in R | Computing Methods | Solutions Architecture"
+format: html
+editor: visual
 ---
 
-**Kwiz Computing Technologies Limited (*Kwiz Research*)** is a research and software consulting company building solutions and infrastructure around the *R programming Language*. 
+```{r, echo=FALSE}
+#| context: server-start
+#| echo: false
+library(shiny)
+```
 
-What we do:
-
-**Software Solutions**
-
-- build *R/Shiny* web applications for enterprise that;
-    * integrate API calls to provision, deploy and manage secure and scalable cloud (*AWS*) resources
-    * integrate Databases and solutions written in other popular languages (e.g *Python*)
-    
-- design and implement algorithms to automate *Management* and High *Performance Mathematical Computing* workflows
-
-- author and publish with *scientific markdown*  high-quality (e.g *articles*, *reports*, *websites*, *blogs*, ... in *HTML, PDF, MS Word, ...*)
-
-- deploy static and interactive web solutions created in R
-
-**Research Solutions**
-
-- consult on research methodologies and evaluation metrics
-
-- reproducible data processing, analysis and the synthesis and presentation of results
+```{r, echo=FALSE}
+#| context: server
+#| eval: true
+user_name = textInput("user_email", strong("Email"), placeholder = "example@gmail.com",
+                      width = "100%")
+user_query = textInput("user_query", strong("Lets talk"), placeholder = "start typing ...",
+                       width = "100%")
+```
 
 
-# The Team
 
-<div> 
-<h2> Kwizera Jean Victor: Co-Founder </h2>
+<div class="container">
 
-<img src="images/kwizera.jpeg" title="Kwizera Jean Victor:- Co-Founder" float=right width=120></img>
-  Kwizera is an R Developer, Data Scientist, Researcher; with a background in Actuarial Science and Data Science, and with over 6 years experience Programming in and around the R programming language. He is passionate about open source technologies, mathematical computing and research. 
-
-  Kwizera has worked in research and business consulting, including: 
+  <img src="images/Kwiz White logo 2400x1800-3-4.jpg" alt="Kwiz Computing Technologies Logo" style="width:85%;">
   
-* *modeling and simulating ecological processes* and *financial trading strategies*,
-* *evaluating sample data biases*, 
-* *building forest inventory* and *climate models*, 
-* *analyzing credit markets*  
-* *building interactive dashboards* and 
-* *automating workflows*
-    
-He is a problem solver with keen interest in Automation, Integration, Mathematical Computing and Cloud Solutions. 
-
-<a href="mailto: jeankwizera@kwizresearch.com">jeankwizera@kwizresearch.com</a>
+  <div class="top-right-1">Kwiz Computing Technologies builds and maintains R shiny Applications and Algorithms for Computational and Enteprise workflows. We develop lean applications optimized for scale and security
+  
+  <span class="top-right-2"> We:</span>
+  
+  <div> <ul> 
+    <li> Build Sky Computing Infrastructure</li>
+    <li> Create and Optimize Big Data Pipelines and Computational Workflows</li>
+    <li> Build Dashboards and Interactive Web Pages</li>
+    <li> Consult on and Implement Advanced Statistical Models </li>
+    <li> Debug and Customize existing R Shiny Applications/Workflows</li>
+  </ul> </div>
+  
+  <span class="top-right-2"> You get:</span>
+  
+  <div> <ul>
+    <li> Robust Multicloud applications </li>
+    <li> Lean Modular Architecture </li>
+    <li> Fast Prototyping </li>
+    <li> Agile Teams </li> 
+  </ul> </div>
+  
+  </div>
 </div>
 
-
-<div> 
-<h2> Iragena Vincent De Paul: Co-Founder </h2>
-
-<img src="" title="Iragena Vincent De Paul:- Co-Founder" float=right width=120></img>
-  Iragena is a graduate of Economics from the University of Nairobi. He is passionate about Project Management, operations and policy development. He also has interests in software and music and he invests some of his time developing electronic music.
-  
-<a href="mailto: vindepaul@kwizresearch.com">vindepaul@kwizresearch.com</a>
-</div>
-
-
-
-
+::: columns
+::: {.column width="25%"}
+`r user_name`
+:::
+::: {.column width="70%"}
+`r user_query`
+:::
+:::
 

@@ -1,0 +1,15 @@
+Value proposition
+
+Software Development:
+
+*simple* *intuitive* interfaces: built on top of *heterogeneous* cloud infrastructure (sky computing): providing *robust*, *flexible* and *low cost* solutions: in an *automated*, *secure*, *interactive* and *unified* abstraction layer: powered by *R*
+
+*modular* infrastructure: for *lean* applications, *quick* prototypes and *agile* feature integration.
+
+development and deployment of *efficient* *scalable* back-end solutions fit for your needs
+
+Capacity Development:
+
+*empower* individuals and teams through training: demystifying the *R programming language* for *statistical computing* and *software development*
+
+focus on: *R*, *Automated workflows with R*, *Interacting with Web Technologies in R*, *Building Web Technologies with R*, *Integrating code from other programming languages (Python, javascript, react, CSS, HTML, ...) to expand R functionality*, and *collaboration and reproducibility*

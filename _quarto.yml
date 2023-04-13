@@ -4,55 +4,60 @@ project:
     -"*.jpeg"
   
 website:
-  title: "Kwiz Research"
+  title: "Kwiz Computing Technologies Limited"
   page-navigation: true
-  cookie-consent: false
+  cookie-consent: true
+  
+  navbar:
+    foreground: "#1c4c9c"
+    logo: 'images/Kwiz Main Logo 2400x1800.jpg'
+    logo-alt: "Kwiz Computing Technologies Limited"
+
+    
+    right:
+      - text: "Home"
+        href: index.qmd
+        
+      - text: "Resource Centre"
+        href: index_archive.qmd
+      
+      - text: "Play"
+        menu: 
+          - business_dashboard.qmd
+          - mapping_dashboard.qmd
+          - survival_dashboard.qmd
   
   search: 
     location: navbar
     type: textbox
     
   page-footer: 
-    background: "#343434"
-    foreground: rgba(300, 200, 100, 1)
+    background: "#ad9882"
+    foreground: "#1c4c9c"
     
-    left: '&#169;2023: Kwiz Research, Built in R with Quarto'
+    left: '&#169;2023: Kwiz Computing Technologies Limited'
     right: 
       - icon: github
-        href: https://github.com/Kwiz-Research-Services
+        href: https://github.com/Kwiz-Computing-Technologies-Limited
       - icon: linkedin
         href: https://www.linkedin.com/company/kwizresearch/
 
-  navbar:
-    foreground: rgba(300, 200, 100, 10)
-    logo: images/krs_logo_4.png
-    
-    right:
-      - index.qmd
-      - about.qmd
-      - text: "Services"
-        menu: 
-          - data.qmd
-          - research.qmd
-          - training.qmd
-      - text: "Demos"
-        menu: 
-          - business_dashboard.qmd
-          - mapping_dashboard.qmd
-          - survival_dashboard.qmd
+  
         
 
 format:
   html:
     theme: sandstone
-    backgroundcolor: rgba(166, 145, 92, 0.1);
-    mainfont: Comic Sans MS
+    backgroundcolor: "#ffffff"
+    mainfont: Black Street
     fontcolor: black
-    linkcolor: rgba(166, 145, 92, 1)
+    linkcolor: "#104898"
     
     page-layout: full
     css: styles.css
     toc: false
+    
+    code-fold: true
 
 editor: visual
 

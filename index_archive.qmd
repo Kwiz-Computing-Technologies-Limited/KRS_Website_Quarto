@@ -1,0 +1,191 @@
+---
+title: ""
+geometry:
+  - showframe
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+::: column-screen-outset
+<img src="images/Kwiz_Inverted_Color.jpg" width="100%" height=""/> </img>
+:::
+
+::: column-screen-inset
+KwizCoTech is a software company purposed to solve business and research problems in complex environments
+by designing algorithms and interactive applications to facilitate and
+automate high-performance computational and business workflows.
+:::
+
+::: column-screen-inset
+Value proposition
+
+Data science & Analytics:
+
+
+IT & Networking:
+
+
+
+Web & Software Development:
+
+simple intuitive interfaces: built on top of heterogeneous cloud infrastructure (sky computing): providing robust, flexible and low cost solutions: in an automated, secure, interactive and unified abstraction layer: powered by R
+
+modular infrastructure: for lean applications, quick prototypes and agile feature integration.
+
+efficient scalable solutions fit for your needs
+
+Capacity Development:
+
+empower individuals and teams through training: demystifying the R programming language for statistical computing and software development
+
+focus on: R, Automated workflows with R, Interacting with Web Technologies in R, Building Web Technologies with R, Integrating other programming languages to expand R functionality, and collaboration and reproducibility
+:::
+
+------------------------------------------------------------------------
+
+::: column-screen-inset-left
+<h1><strong> Our Solutions </strong></h1>
+:::
+
+::: column-screen-inset
+::: columns
+::: {.column width="5%"}
+:::
+
+::: {.column width="30%"}
+**Software**
+:::
+
+::: {.column width="30%"}
+**Research**
+:::
+
+::: {.column width="30%"}
+**Training**
+:::
+
+::: {.column width="5%"}
+:::
+:::
+:::
+
+::: column-screen-inset
+::: columns
+::: {.column width="5%"}
+:::
+
+::: {.column width="30%"}
+<img src="images/mockups/Slide8.png" width="100%"/> </img>
+:::
+
+::: {.column width="30%"}
+<img src="images/mockups/Slide12.png" width="100%"/> </img>
+:::
+
+::: {.column width="30%"}
+<img src="images/mockups/Slide13.png" width="100%"/> </img>
+:::
+
+::: {.column width="5%"}
+:::
+:::
+:::
+
+::: column-screen-inset
+::: columns
+::: {.column width="33%"}
+-   build *- Shiny* web applications for enterprise that;
+
+    -   integrate API calls to provision, deploy and manage secure and
+        scalable cloud (*AWS*) resources
+    -   integrate Databases and solutions written in other popular
+        languages (e.g *Python*)
+
+-   design and implement algorithms to automate *Management* and High
+    *Performance Mathematical Computing* workflows
+
+-   author and publish with *scientific markdown* high-quality (e.g
+    *articles*, *reports*, *websites*, *blogs*, ... in *HTML, PDF, MS
+    Word, ...*)
+
+-   deploy static and interactive web solutions created in R
+:::
+
+::: {.column width="33%"}
+-   consult on research methodologies and evaluation metrics
+
+-   reproducible data processing, analysis and the synthesis and
+    presentation of results
+:::
+
+::: {.column width="33%"}
+We train Individuals and groups on:
+
+-   R programming language for Data Analysis
+
+-   R programming language for Software Development
+:::
+:::
+:::
+
+------------------------------------------------------------------------
+
+::: column-screen-outset
+<h1><strong> The Team </strong></h1>
+:::
+
+::: column-screen-outset
+::: columns
+::: {.column width="78%"}
+<h2>Kwizera Jean Victor: Co-Founder, CEO</h2>
+
+Kwizera is an R Developer, Data Scientist, Researcher; with a background
+in Actuarial Science and Data Science, and with over 6 years experience
+Programming in and around the R programming language. He is passionate
+about open source technologies, mathematical computing and research.
+
+Kwizera has worked in research and business consulting, including:
+
+-   *modeling and simulating ecological processes* and *financial
+    trading strategies*,
+-   *evaluating sample data biases*,
+-   *building forest inventory* and *climate models*,
+-   *analyzing credit markets*\
+-   *building interactive dashboards* and
+-   *automating workflows*
+
+He is a problem solver with keen interest in Automation, Integration,
+Mathematical Computing and Cloud Solutions.
+:::
+
+::: {.column width="2%"}
+:::
+
+::: {.column width="20%"}
+<img src="images/kwizera.jpeg" title="Kwizera Jean Victor:- Co-Founder" float="right" width="200"/></img>
+<a href="mailto: jeankwizera@kwizresearch.com">jeankwizera\@kwizresearch.com</a>
+:::
+:::
+:::
+
+::: column-screen-outset
+::: columns
+::: {.column width="78%"}
+<h2>Iragena Vincent De Paul: Co-Founder, COO</h2>
+
+Iragena is a graduate of Economics from the University of Nairobi. He is
+passionate about Project Management, operations and policy development.
+He also has interests in software and music and he invests some of his
+time developing electronic music.
+:::
+
+::: {.column width="2%"}
+:::
+
+::: {.column width="20%"}
+<img src=" " title="Iragena Vincent De Paul:- Co-Founder" float="right" width="200"/></img>
+<a href="mailto: vindepaul@kwizresearch.com">vindepaul\@kwizresearch.com</a>
+:::
+:::
+:::

@@ -1,38 +1,120 @@
 /* css styles */
 .title {
-  font-size: 24px;
-  color: black;
+  font-size: 33px;
+  color:#1b4a9c;
+  text-align: center;
 }
 
 .subtitle {
-  font-size: 16px;
-  color: black;
+  font-size: 28px;
+  color: #ad9882;
   text-decoration: underline;     
-  text-decoration-color: rgba(300, 200, 100, 1);
+  text-decoration-color: #ad9882;
+  text-align: left;
+  font-style: italic;
+}
+
+.description {
+  font-size: 25px;
+  color: #ad9882;
+  text-decoration: underline;
+  text-align: center;
+  font-style: italic;
 }
 
 h1 { /* Header 1 */
-  font-size: 24px;
-  color: rgba(300, 200, 100, 1);
+  font-size: 33px;
+  color: #141c64;
 }
 
+h1_a { /* Header 1 */
+  font-size: 33px;
+  color: #141c64;
+}
+
+
 h2 { /* Header 2 */
-  font-size: 18px;
-  color: black;
+  font-size: 28px;
+  color: #ad9882;
   text-decoration: underline;     
-  text-decoration-color: rgba(300, 200, 100, 1);
+  text-decoration-color: #ad9882;
+  text-align: right;
+  font-style: italic;
+}
+
+p {
+  font-size: 23px;
+  color:black;
+}
+
+.caption p {
+font-size: 24px;
 }
 
 .navbar {
-  background-color:#343434;
-  border-color:rgba(300, 200, 100, 1);
+  background-color:#ad9882;
+  border-color:#104898;
+  height: 60px;
 }
 
 .navbar-brand {
-color:rgba(300, 200, 100, 1)!important;
+color:#1b4a9c!important;
 }
 
 img{
-  float: left;
-  margin: 5px;
+  align-items: center;
 }
+
+.logo img {
+  height: 4000px;
+  width: 3000px;
+}
+
+ul{
+  list-style-image: url('images/1681364019429-4.jpg');
+  text-align: right;
+  font-size: 18px;
+  font-style: italic;
+  color: #141c64;
+  padding: 50;
+}
+
+
+/* Top right text */
+.top-right-1 {
+  position: absolute;
+  top: calc(15%);
+  left: calc(2%);
+  right: calc(5%);
+  font-size: 20px;
+  text-align: center;
+  font-style: italic;
+  box-shadow: 2px 2px 5px 0 white inset, -2px -2px 5px 0 #ec945c inset; 
+}
+
+
+.top-right-2 {
+  position: relative;
+  font-size: 22px;
+  color: #ad9882;
+  text-decoration: underline;     
+  text-decoration-color: #ad9882;
+}
+
+.top-right-3 {
+  position: relative;
+  font-size: 22px;
+  color: #ad9882;
+}
+
+
+.bottom-left-1 {
+  position: absolute;
+  top: 1250px;
+  left: 20px;
+  right: 200px;
+  font-size: 20px;
+  text-align: left;
+}
+
+

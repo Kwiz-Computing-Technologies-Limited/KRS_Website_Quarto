@@ -9,23 +9,23 @@
   {
     "objectID": "intro.html",
     "href": "intro.html",
-    "title": "Kwiz Research Services",
+    "title": "Kwiz Computing Technologies",
     "section": "",
-    "text": "We:"
+    "text": "At Kwiz Research Services, we build customized data and software solutions for business and research. Our goal is to accelerate the adoption of data driven decision processes, integrating the best technologies for data management, processing and reporting.\nWe:"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Research and Software Solutions",
+    "title": "Enterprise Applications and Big Data Solutions",
     "section": "",
-    "text": "Kwiz Computing Technologies Limited (Kwiz Research) is a research and software consulting company building solutions and infrastructure around the R programming Language.\nWhat we do:\nSoftware Solutions\n\nbuild R/Shiny web applications for enterprise that;\n\nintegrate API calls to provision, deploy and manage secure and scalable cloud (AWS) resources\nintegrate Databases and solutions written in other popular languages (e.g Python)\n\ndesign and implement algorithms to automate Management and High Performance Mathematical Computing workflows\nauthor and publish with scientific markdown high-quality (e.g articles, reports, websites, blogs, … in HTML, PDF, MS Word, …)\ndeploy static and interactive web solutions created in R\n\nResearch Solutions\n\nconsult on research methodologies and evaluation metrics\nreproducible data processing, analysis and the synthesis and presentation of results\n\n\nThe Team\n\n\nKwizera Jean Victor: Co-Founder\n\n Kwizera is an R Developer, Data Scientist, Researcher; with a background in Actuarial Science and Data Science, and with over 6 years experience Programming in and around the R programming language. He is passionate about open source technologies, mathematical computing and research.\nKwizera has worked in research and business consulting, including:\n\nmodeling and simulating ecological processes and financial trading strategies,\nevaluating sample data biases,\nbuilding forest inventory and climate models,\nanalyzing credit markets\n\nbuilding interactive dashboards and\nautomating workflows\n\nHe is a problem solver with keen interest in Automation, Integration, Mathematical Computing and Cloud Solutions.\njeankwizera@kwizresearch.com\n\n\n\nIragena Vincent De Paul: Co-Founder\n\n Iragena is a graduate of Economics from the University of Nairobi. He is passionate about Project Management, operations and policy. He also has interest in software and music and he invests some of his time developing electronic music.\nvindepaul@kwizresearch.com"
+    "text": "Kwiz Computing Technologies builds and maintains R shiny Applications and Algorithms for Computational and Enteprise workflows. We develop lean applications optimized for scale and security\n We:\n\n\n\nBuild Sky Computing Infrastructure\n\n\nCreate and Optimize Big Data Pipelines and Computational Workflows\n\n\nBuild Dashboards and Interactive Web Pages\n\n\nConsult on and Implement Advanced Statistical Models\n\n\nDebug and Customize existing R Shiny Applications/Workflows\n\n\n\n You get:\n\n\n\nRobust Multicloud applications\n\n\nLean Modular Architecture\n\n\nFast Prototyping\n\n\nAgile Teams\n\n\n\n\n\n\n\n  Email   \n\n  Lets talk"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "Kwizera is a Data Scientist with a background in Actuarial Science and Data Science with over 6 years experience in Statistical Programming. He is passionate about open source technologies, mathematical computing and research.\nJean has worked in research and business consulting, simulating and modeling ecological processes and Forex trading strategies, building forest inventory models, analyzing credit markets and building dashboards. He is a problem solver with keen interest in algorithm development for Automation, Integration and Mathematical Computing.\njeankwizera@kwizresearch.com"
+    "objectID": "index.html#research-and-software-solutions",
+    "href": "index.html#research-and-software-solutions",
+    "title": "Home",
+    "section": "Research and Software Solutions",
+    "text": "Research and Software Solutions\nWhat we do:\nSoftware Solutions\n\nbuild R/Shiny web applications for enterprise that;\n\nintegrate API calls to provision, deploy and manage secure and scalable cloud (AWS) resources\nintegrate Databases and solutions written in other popular languages (e.g Python)\n\ndesign and implement algorithms to automate Management and High Performance Mathematical Computing workflows\nauthor and publish with scientific markdown high-quality (e.g articles, reports, websites, blogs, … in HTML, PDF, MS Word, …)\ndeploy static and interactive web solutions created in R\n\nResearch Solutions\n\nconsult on research methodologies and evaluation metrics\nreproducible data processing, analysis and the synthesis and presentation of results"
   },
   {
     "objectID": "training.html",
@@ -40,5 +40,47 @@
     "title": "Data Solutions",
     "section": "",
     "text": "Data Solutions Coming Soon!!"
+  },
+  {
+    "objectID": "index.html#we-use-the-r-programming-language-as-the-backbone-for-our-development-leveraging-its-robust-suit-of-libraries-to-create-efficient-highly-scalable-solutions-for-high-perfomance-computing-fast-prototyping-and-productionization-seamlessly-integrate-cloud-solutions-and-other-programming-languages.",
+    "href": "index.html#we-use-the-r-programming-language-as-the-backbone-for-our-development-leveraging-its-robust-suit-of-libraries-to-create-efficient-highly-scalable-solutions-for-high-perfomance-computing-fast-prototyping-and-productionization-seamlessly-integrate-cloud-solutions-and-other-programming-languages.",
+    "title": "Home",
+    "section": "We use the R programming Language as the backbone for our development, leveraging its robust suit of libraries to create efficient highly-scalable solutions for high perfomance computing, fast prototyping and productionization, seamlessly integrate cloud solutions and other programming languages.",
+    "text": "We use the R programming Language as the backbone for our development, leveraging its robust suit of libraries to create efficient highly-scalable solutions for high perfomance computing, fast prototyping and productionization, seamlessly integrate cloud solutions and other programming languages."
+  },
+  {
+    "objectID": "index.html#software-solutions",
+    "href": "index.html#software-solutions",
+    "title": "Home",
+    "section": "Software Solutions",
+    "text": "Software Solutions\nWhat we do:\nSoftware Solutions\n\nbuild R/Shiny web applications for enterprise that;\n\nintegrate API calls to provision, deploy and manage secure and scalable cloud (AWS) resources\nintegrate Databases and solutions written in other popular languages (e.g Python)\n\ndesign and implement algorithms to automate Management and High Performance Mathematical Computing workflows\nauthor and publish with scientific markdown high-quality (e.g articles, reports, websites, blogs, … in HTML, PDF, MS Word, …)\ndeploy static and interactive web solutions created in R\n\nResearch Solutions\n\nconsult on research methodologies and evaluation metrics\nreproducible data processing, analysis and the synthesis and presentation of results"
+  },
+  {
+    "objectID": "notes.html",
+    "href": "notes.html",
+    "title": "Kwiz Computing Technologies",
+    "section": "",
+    "text": "Value proposition\nSoftware Development:\nsimple intuitive interfaces: built on top of heterogeneous cloud infrastructure (sky computing): providing robust, flexible and low cost solutions: in an automated, secure, interactive and unified abstraction layer: powered by R\nmodular infrastructure: for lean applications, quick prototypes and agile feature integration.\ndevelopment and deployment of efficient scalable back-end solutions fit for your needs\nCapacity Development:\nempower individuals and teams through training: demystifying the R programming language for statistical computing and software development\nfocus on: R, Automated workflows with R, Interacting with Web Technologies in R, Building Web Technologies with R, Integrating code from other programming languages (Python, javascript, react, CSS, HTML, …) to expand R functionality, and collaboration and reproducibility"
+  },
+  {
+    "objectID": "index_archive.html",
+    "href": "index_archive.html",
+    "title": "Kwiz Computing Technologies Limited",
+    "section": "",
+    "text": "KwizCoTech is a software company purposed to solve business and research problems in complex environments by designing algorithms and interactive applications to facilitate and automate high-performance computational and business workflows.\n\n\nValue proposition\nData science & Analytics:\nIT & Networking:\nWeb & Software Development:\nsimple intuitive interfaces: built on top of heterogeneous cloud infrastructure (sky computing): providing robust, flexible and low cost solutions: in an automated, secure, interactive and unified abstraction layer: powered by R\nmodular infrastructure: for lean applications, quick prototypes and agile feature integration.\nefficient scalable solutions fit for your needs\nCapacity Development:\nempower individuals and teams through training: demystifying the R programming language for statistical computing and software development\nfocus on: R, Automated workflows with R, Interacting with Web Technologies in R, Building Web Technologies with R, Integrating other programming languages to expand R functionality, and collaboration and reproducibility\n\n\n\n\n Our Solutions \n\n\n\n\n\n\n\nSoftware\n\nResearch\n\nTraining\n\n\n\n\n\n\n\n\n\n\n \n\n \n\n \n\n\n\n\n\n\n\n\n\nbuild - Shiny web applications for enterprise that;\n\nintegrate API calls to provision, deploy and manage secure and scalable cloud (AWS) resources\nintegrate Databases and solutions written in other popular languages (e.g Python)\n\ndesign and implement algorithms to automate Management and High Performance Mathematical Computing workflows\nauthor and publish with scientific markdown high-quality (e.g articles, reports, websites, blogs, … in HTML, PDF, MS Word, …)\ndeploy static and interactive web solutions created in R\n\n\n\nconsult on research methodologies and evaluation metrics\nreproducible data processing, analysis and the synthesis and presentation of results\n\n\nWe train Individuals and groups on:\n\nR programming language for Data Analysis\nR programming language for Software Development\n\n\n\n\n\n\n\n The Team \n\n\n\n\n\n\nKwizera Jean Victor: Co-Founder, CEO\n\nKwizera is an R Developer, Data Scientist, Researcher; with a background in Actuarial Science and Data Science, and with over 6 years experience Programming in and around the R programming language. He is passionate about open source technologies, mathematical computing and research.\nKwizera has worked in research and business consulting, including:\n\nmodeling and simulating ecological processes and financial trading strategies,\nevaluating sample data biases,\nbuilding forest inventory and climate models,\nanalyzing credit markets\n\nbuilding interactive dashboards and\nautomating workflows\n\nHe is a problem solver with keen interest in Automation, Integration, Mathematical Computing and Cloud Solutions.\n\n\n\n jeankwizera@kwizresearch.com\n\n\n\n\n\n\n\nIragena Vincent De Paul: Co-Founder, COO\n\nIragena is a graduate of Economics from the University of Nairobi. He is passionate about Project Management, operations and policy development. He also has interests in software and music and he invests some of his time developing electronic music.\n\n\n\n vindepaul@kwizresearch.com"
+  },
+  {
+    "objectID": "index.html#consult",
+    "href": "index.html#consult",
+    "title": "Enterprise Applications and Big Data Solutions",
+    "section": "Consult",
+    "text": "Consult"
+  },
+  {
+    "objectID": "index.html#you-get",
+    "href": "index.html#you-get",
+    "title": "Enterprise Applications and Big Data Solutions",
+    "section": "You get:",
+    "text": "You get:\n\nLean Modular Architecture\nFast Prototypes\nAgile teams"
   }
 ]
