@@ -18,14 +18,17 @@ website:
       - text: "Home"
         href: index.qmd
         
+      - text: "Demos"
+        href: play.qmd
+        
       - text: "Resource Centre"
+        href: blogs.qmd
+        
+      - text: "Consult Centre"
         href: index_archive.qmd
       
-      - text: "Play"
-        menu: 
-          - business_dashboard.qmd
-          - mapping_dashboard.qmd
-          - survival_dashboard.qmd
+      
+        
   
   search: 
     location: navbar
