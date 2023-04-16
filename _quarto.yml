@@ -6,7 +6,7 @@ project:
 website:
   title: "Kwiz Computing Technologies Limited"
   page-navigation: true
-  cookie-consent: true
+  cookie-consent: false
   
   navbar:
     foreground: "#1c4c9c"
