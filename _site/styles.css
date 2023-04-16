@@ -48,6 +48,7 @@ p {
   font-style: italic;
 }
 
+
 .caption p {
 font-size: 24px;
 }
@@ -64,7 +65,7 @@ color:#1b4a9c!important;
 
 img{
   float: right;
-  width: 40%;
+  width: 600px;
 }
 
 .logo img {

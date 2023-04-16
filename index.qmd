@@ -5,31 +5,36 @@ format: html
 editor: visual
 ---
 
-<div>
+::: rows
+::: {.row height="50%"}
 
-<br> </br>
+<br> </br1>
+
 ![](images/Kwiz White logo 2400x1800-3-4.jpg)
 
+<br> </br1>
+<br> </br1>
 
   Kwiz Computing Technologies builds and maintains R shiny Applications and Algorithms for Computational and Enteprise workflows. We develop lean applications optimized for scale and security
   
-  <br> </br>
-  <br> </br>
- 
+:::
+
+
+::: {.row height="50%"}
 ::: columns
 ::: {.column width="50%"}
-<span> We:</span>
+<p1> We:</span>
   
   <div> <ul> 
     <li> Build Sky Computing Infrastructure</li>
-    <li> Create and Optimize Big Data Pipelines and Computational Workflows</li>
     <li> Build Dashboards and Interactive Web Pages</li>
     <li> Consult on and Implement Advanced Statistical Models </li>
     <li> Debug and Customize existing R Shiny Applications/Workflows</li>
+    <li> Create and Optimize Big Data Pipelines and Computational Workflows</li>
   </ul> </div>
 :::
 ::: {.column width="50%"}
-<span> You get:</span>
+<span> You Get:</span>
   
   <div> <ul>
     <li> Robust Multicloud applications </li>
@@ -40,5 +45,7 @@ editor: visual
 :::
 :::
 
-</div>
+:::
+:::
+
 
