@@ -6,7 +6,7 @@ editor: visual
 ---
 
 ::: rows
-::: {.row height="50%"}
+::: {.row height="45%"}
 
 <br> </br1>
 
@@ -19,11 +19,13 @@ editor: visual
   
 :::
 
+::: {.row height="5%"}
+:::
 
 ::: {.row height="50%"}
 ::: columns
 ::: {.column width="50%"}
-<p1> We:</span>
+<span> We:</span>
   
   <div> <ul> 
     <li> Build Sky Computing Infrastructure</li>
