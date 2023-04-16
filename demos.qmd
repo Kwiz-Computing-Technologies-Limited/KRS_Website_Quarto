@@ -1,0 +1,34 @@
+---
+title: "Samples"
+description: "R Shiny | Business Dashboard | Mapping | Calculator"
+format: html
+editor: visual
+footer: none
+header: none
+---
+
+:::{.column-screen}
+::: columns
+::: {.column width="5%" height="560px"}
+
+:::
+::: {.column width="30%" height="560px"}
+[Business Dashboard](/business_dashboard.qmd)
+
+<iframe height="560px" width="100%" frameborder="1" src="https://jean-kwizera-vic.shinyapps.io/Dashboard/"> </iframe>
+
+:::
+::: {.column width="30%" height="560px"}
+[Survival Analysis Calculator](/survival_dashboard.qmd)
+
+<iframe height="560px" width="100%" frameborder="1" src="https://zp1mwp-jean0victor-kwizera.shinyapps.io/SurvivalAnalysisCalculator/"> </iframe>
+
+:::
+::: {.column width="30%" height="560px"}
+[Species Mapping Dashboard](/mapping_dashboard.qmd)
+
+<iframe height="560px" width="100%" frameborder="1" src="https://zp1mwp-jean0victor-kwizera.shinyapps.io/Appsilon_code_challenge/"> </iframe>
+
+:::
+:::
+:::

@@ -3,6 +3,5 @@ title: "Business Dashboard"
 toc: false
 ---
 
-## Business Dashboard
 
-<iframe width="100%" frameborder="1" src="https://jean-kwizera-vic.shinyapps.io/Dashboard/"> </iframe>
+<iframe height="100%" width="100%" frameborder="1" src="https://jean-kwizera-vic.shinyapps.io/Dashboard/"> </iframe>

@@ -20,6 +20,7 @@
   text-decoration: underline;
   text-align: center;
   font-style: italic;
+  text-underline-offset: 8px;
 }
 
 h1 { /* Header 1 */

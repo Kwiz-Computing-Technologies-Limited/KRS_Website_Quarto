@@ -6,7 +6,7 @@ editor: visual
 ---
 
 ::: rows
-::: {.row height="45%"}
+::: {.row}
 
 <br> </br1>
 
@@ -19,10 +19,10 @@ editor: visual
   
 :::
 
-::: {.row height="5%"}
+::: {.row}
 :::
 
-::: {.row height="50%"}
+::: {.row}
 ::: columns
 ::: {.column width="50%"}
 <span> We:</span>
@@ -49,5 +49,3 @@ editor: visual
 
 :::
 :::
-
-

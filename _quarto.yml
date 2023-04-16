@@ -19,13 +19,13 @@ website:
         href: index.qmd
         
       - text: "Demos"
-        href: play.qmd
+        href: demos.qmd
         
       - text: "Resource Centre"
-        href: blogs.qmd
+        href: resources.qmd
         
-      - text: "Consult Centre"
-        href: index_archive.qmd
+      - text: "Consultation Centre"
+        href: consultations.qmd
       
       
         
