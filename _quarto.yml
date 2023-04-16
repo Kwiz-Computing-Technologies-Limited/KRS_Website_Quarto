@@ -4,14 +4,14 @@ project:
     -"*.jpeg"
   
 website:
-  title: "Kwiz Computing Technologies Limited"
+  title: "Kwiz Computing Technologies"
   page-navigation: true
   cookie-consent: false
   
   navbar:
     foreground: "#1c4c9c"
     logo: 'images/Kwiz Main Logo 2400x1800.jpg'
-    logo-alt: "Kwiz Computing Technologies Limited"
+    logo-alt: "Kwiz Computing Technologies"
     
     right:
       - text: "Home"
@@ -35,7 +35,7 @@ website:
     background: "#ad9882"
     foreground: "#1c4c9c"
     
-    left: '&#169;2023: Kwiz Computing Technologies Limited'
+    left: '&#169;2023: Kwiz Computing Technologies'
     right: 
       - icon: github
         href: https://github.com/Kwiz-Computing-Technologies-Limited
