@@ -45,6 +45,7 @@ h2 { /* Header 2 */
 p {
   font-size: 23px;
   color:black;
+  font-style: italic;
 }
 
 .caption p {
@@ -62,7 +63,8 @@ color:#1b4a9c!important;
 }
 
 img{
-  align-items: center;
+  float: right;
+  width: 40%;
 }
 
 .logo img {
@@ -72,49 +74,12 @@ img{
 
 ul{
   list-style-image: url('images/1681364019429-4.jpg');
-  text-align: right;
+  text-align: center;
   font-size: 18px;
   font-style: italic;
   color: #141c64;
   padding: 50;
 }
 
-
-/* Top right text */
-.top-right-1 {
-  position: absolute;
-  top: calc(15%);
-  left: calc(2%);
-  right: calc(5%);
-  font-size: 20px;
-  text-align: center;
-  font-style: italic;
-  box-shadow: 2px 2px 5px 0 white inset, -2px -2px 5px 0 #ec945c inset; 
-}
-
-
-.top-right-2 {
-  position: relative;
-  font-size: 22px;
-  color: #ad9882;
-  text-decoration: underline;     
-  text-decoration-color: #ad9882;
-}
-
-.top-right-3 {
-  position: relative;
-  font-size: 22px;
-  color: #ad9882;
-}
-
-
-.bottom-left-1 {
-  position: absolute;
-  top: 1250px;
-  left: 20px;
-  right: 200px;
-  font-size: 20px;
-  text-align: left;
-}
 
 

@@ -5,30 +5,20 @@ format: html
 editor: visual
 ---
 
-```{r, echo=FALSE}
-#| context: server-start
-#| echo: false
-library(shiny)
-```
+<div>
 
-```{r, echo=FALSE}
-#| context: server
-#| eval: true
-user_name = textInput("user_email", strong("Email"), placeholder = "example@gmail.com",
-                      width = "100%")
-user_query = textInput("user_query", strong("Lets talk"), placeholder = "start typing ...",
-                       width = "100%")
-```
+<br> </br>
+![](images/Kwiz White logo 2400x1800-3-4.jpg)
 
 
-
-<div class="container">
-
-  <img src="images/Kwiz White logo 2400x1800-3-4.jpg" alt="Kwiz Computing Technologies Logo" style="width:85%;">
+  Kwiz Computing Technologies builds and maintains R shiny Applications and Algorithms for Computational and Enteprise workflows. We develop lean applications optimized for scale and security
   
-  <div class="top-right-1">Kwiz Computing Technologies builds and maintains R shiny Applications and Algorithms for Computational and Enteprise workflows. We develop lean applications optimized for scale and security
-  
-  <span class="top-right-2"> We:</span>
+  <br> </br>
+  <br> </br>
+ 
+::: columns
+::: {.column width="50%"}
+<span> We:</span>
   
   <div> <ul> 
     <li> Build Sky Computing Infrastructure</li>
@@ -37,8 +27,9 @@ user_query = textInput("user_query", strong("Lets talk"), placeholder = "start t
     <li> Consult on and Implement Advanced Statistical Models </li>
     <li> Debug and Customize existing R Shiny Applications/Workflows</li>
   </ul> </div>
-  
-  <span class="top-right-2"> You get:</span>
+:::
+::: {.column width="50%"}
+<span> You get:</span>
   
   <div> <ul>
     <li> Robust Multicloud applications </li>
@@ -46,16 +37,8 @@ user_query = textInput("user_query", strong("Lets talk"), placeholder = "start t
     <li> Fast Prototyping </li>
     <li> Agile Teams </li> 
   </ul> </div>
-  
-  </div>
-</div>
+:::
+:::
 
-::: columns
-::: {.column width="25%"}
-`r user_name`
-:::
-::: {.column width="70%"}
-`r user_query`
-:::
-:::
+</div>
 
