@@ -7,7 +7,7 @@ footer: none
 header: none
 ---
 
-::: column-screen
+::: column-screen-outset
 ::: columns
 ::: {.column width="5%" height="100%"}
 :::
