@@ -21,7 +21,7 @@ header: none
 ::: {.column width="3%" height="100%"}
 :::
 ::: {.column width="30%" height="100%"}
-[Survival Analysis Calculator](/survival_dashboard.qmd) [source code]()
+[Survival Analysis Calculator](/survival_dashboard.qmd) | [source code]()
 
 <iframe height="100%" width="100%" frameborder="1" src="https://zp1mwp-jean0victor-kwizera.shinyapps.io/SurvivalAnalysisCalculator/">
 
@@ -30,7 +30,7 @@ header: none
 ::: {.column width="3%" height="100%"}
 :::
 ::: {.column width="30%" height="100%"}
-[Species Mapping Dashboard](/mapping_dashboard.qmd) [source code]()
+[Species Mapping Dashboard](/mapping_dashboard.qmd) | [source code]()
 
 <iframe height="100%" width="100%" frameborder="1" src="https://zp1mwp-jean0victor-kwizera.shinyapps.io/Appsilon_code_challenge/">
 
@@ -42,7 +42,7 @@ header: none
 ::: {.column width="3%" height="100%"}
 :::
 ::: {.column width="30%" height="100%"}
-[Website](/index.qmd) [source code](<https://github.com/Kwiz-Computing-Technologies-Limited/KRS_Website_Quarto>)
+[Website](/index.qmd) | [source code](<https://github.com/Kwiz-Computing-Technologies-Limited/KRS_Website_Quarto>)
 
 <iframe height="100%" width="100%" frameborder="1" src="https://www.kwizresearch.com/">
 </iframe>
