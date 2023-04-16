@@ -17,16 +17,16 @@ library(shiny)
 #| context: server
 #| eval: true
 user_name = textInput("user_email", strong("Email"), placeholder = "example@gmail.com",
-                      width = "100%")
+                      width = "25%")
 user_query = textInput("user_query", strong("Lets talk"), placeholder = "start typing ...",
                        width = "100%")
 ```
 
-::: columns
-::: {.column width="25%"}
+::: rows
+::: {.row width="10%"}
 `r user_name`
 :::
-::: {.column width="70%"}
+::: {.row width="40%"}
 `r user_query`
 :::
 :::

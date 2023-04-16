@@ -6,46 +6,62 @@ editor: visual
 ---
 
 ::: rows
-::: {.row}
-
+::: row
 <br> </br1>
 
-![](images/Kwiz White logo 2400x1800-3-4.jpg)
+![](images/Kwiz%20White%20logo%202400x1800-3-4.jpg)
 
-<br> </br1>
-<br> </br1>
+<br> </br1> <br> </br1>
 
-  Kwiz Computing Technologies builds and maintains R shiny Applications and Algorithms for Computational and Enteprise workflows. We develop lean applications optimized for scale and security
-  
+Kwiz Computing Technologies builds and maintains R shiny Applications and Algorithms for Computational and Enteprise workflows. We develop lean applications optimized for scale and security
 :::
 
-::: {.row}
+::: row
 :::
 
-::: {.row}
+::: row
 ::: columns
 ::: {.column width="50%"}
-<span> We:</span>
-  
-  <div> <ul> 
-    <li> Build Sky Computing Infrastructure</li>
-    <li> Build Dashboards and Interactive Web Pages</li>
-    <li> Consult on and Implement Advanced Statistical Models </li>
-    <li> Debug and Customize existing R Shiny Applications/Workflows</li>
-    <li> Create and Optimize Big Data Pipelines and Computational Workflows</li>
-  </ul> </div>
-:::
-::: {.column width="50%"}
-<span> You Get:</span>
-  
-  <div> <ul>
-    <li> Robust Multicloud applications </li>
-    <li> Lean Modular Architecture </li>
-    <li> Fast Prototyping </li>
-    <li> Agile Teams </li> 
-  </ul> </div>
-:::
+We:
+
+<div>
+
+<ul>
+
+<li>Build Sky Computing Infrastructure</li>
+
+<li>Build Dashboards and Interactive Web Pages</li>
+
+<li>Consult on and Implement Advanced Statistical Models</li>
+
+<li>Debug and Customize existing R Shiny Applications/Workflows</li>
+
+<li>Create and Optimize Big Data Pipelines and Computational Workflows</li>
+
+</ul>
+
+</div>
 :::
 
+::: {.column width="50%"}
+You Get:
+
+<div>
+
+<ul>
+
+<li>Robust Multicloud applications</li>
+
+<li>Lean Modular Architecture</li>
+
+<li>Fast Prototyping</li>
+
+<li>Agile Teams</li>
+
+</ul>
+
+</div>
+:::
+:::
 :::
 :::

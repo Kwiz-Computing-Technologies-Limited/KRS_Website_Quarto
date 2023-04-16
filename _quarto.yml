@@ -12,7 +12,6 @@ website:
     foreground: "#1c4c9c"
     logo: 'images/Kwiz Main Logo 2400x1800.jpg'
     logo-alt: "Kwiz Computing Technologies Limited"
-
     
     right:
       - text: "Home"
@@ -26,13 +25,11 @@ website:
         
       - text: "Consultation Centre"
         href: consultations.qmd
-      
-      
-        
-  
+    
   search: 
     location: navbar
-    type: textbox
+    type: textbox  
+
     
   page-footer: 
     background: "#ad9882"
