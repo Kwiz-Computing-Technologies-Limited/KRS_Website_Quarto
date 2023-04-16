@@ -23,7 +23,7 @@ website:
       - text: "Resource Centre"
         href: resources.qmd
         
-      - text: "Consultation Centre"
+      - text: "Consultations"
         href: consultations.qmd
     
   search: 

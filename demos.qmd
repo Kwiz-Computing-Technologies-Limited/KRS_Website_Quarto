@@ -11,8 +11,8 @@ header: none
 ::: columns
 ::: {.column width="5%" height="100%"}
 :::
-::: {.column width="40%" height="100%"}
-[Business Dashboard](/business_dashboard.qmd) | [source code]()
+::: {.column width="40%" height="300px"}
+[Business Dashboard](/business_dashboard.qmd) | [source code](<https://github.com/Kwiz-Computing-Technologies-Limited/LipaLater_Dashboard>)
 
 <iframe height="100%" width="100%" frameborder="2" src="https://jean-kwizera-vic.shinyapps.io/Dashboard/">
 
@@ -20,7 +20,7 @@ header: none
 :::
 ::: {.column width="10%" height="100%"}
 :::
-::: {.column width="40%" height="100%"}
+::: {.column width="40%" height="300px"}
 [Survival Analysis Calculator](/survival_dashboard.qmd) | [source code]()
 
 <iframe height="100%" width="100%" frameborder="1" src="https://zp1mwp-jean0victor-kwizera.shinyapps.io/SurvivalAnalysisCalculator/">
@@ -35,8 +35,8 @@ header: none
 ::: columns
 ::: {.column width="5%" height="100%"}
 :::
-::: {.column width="40%" height="100%"}
-[Species Mapping Dashboard](/mapping_dashboard.qmd) | [source code]()
+::: {.column width="40%" height="300px"}
+[Species Mapping Dashboard](/mapping_dashboard.qmd) | [source code](<https://github.com/Kwiz-Computing-Technologies-Limited/global_species_mapping>)
 
 <iframe height="100%" width="100%" frameborder="1" src="https://zp1mwp-jean0victor-kwizera.shinyapps.io/Appsilon_code_challenge/">
 
@@ -44,7 +44,7 @@ header: none
 :::
 ::: {.column width="10%" height="100%"}
 :::
-::: {.column width="40%" height="100%"}
+::: {.column width="40%" height="300px"}
 [Website](/index.qmd) | [source code](<https://github.com/Kwiz-Computing-Technologies-Limited/KRS_Website_Quarto>)
 
 <iframe height="100%" width="100%" frameborder="1" src="https://www.kwizresearch.com/">

@@ -17,7 +17,7 @@ library(shiny)
 #| context: server
 #| eval: true
 user_name = textInput("user_email", strong("Email"), placeholder = "example@gmail.com",
-                      width = "25%")
+                      width = "40%")
 user_query = textInput("user_query", strong("Lets talk"), placeholder = "start typing ...",
                        width = "100%")
 ```
