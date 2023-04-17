@@ -36,7 +36,7 @@ header: none
 ::: {.column width="5%" height="100%"}
 :::
 ::: {.column width="40%" height="300px"}
-[Species Mapping Dashboard](/mapping_dashboard.qmd) | [source code](<https://github.com/Kwiz-Computing-Technologies-Limited/global_species_mapping>)
+[Species Mapping Dashboard](/mapping_dashboard.qmd) | [source code](<https://github.com/Kwiz-Computing-Technologies-Limited/Species-Mapping-Task>)
 
 <iframe height="100%" width="100%" frameborder="1" src="https://zp1mwp-jean0victor-kwizera.shinyapps.io/Appsilon_code_challenge/">
 
