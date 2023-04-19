@@ -21,7 +21,7 @@ Optimize backups by synchronizing local files/directories to s3 buckets on AWS c
 
 :::
 ::: {.column width="100%"}
-Amazon Simple Storage Service is <span>cost-effective</span> object storage service that allows you to store and protect any amount of data for virtually any use case. Visit [Amazon S3](https://aws.amazon.com/s3/) for details on the features, storage classes, security, pricing... and resources on using the service. 
+Amazon Simple Storage Service is a <span>cost-effective</span> object storage service that allows you to store and protect any amount of data for virtually any use case. Visit [Amazon S3](https://aws.amazon.com/s3/) for details on the features, storage classes, security, pricing... and resources on using the service. 
 
 In this tutorial, we:
 :::

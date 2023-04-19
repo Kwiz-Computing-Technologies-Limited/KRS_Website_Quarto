@@ -7,7 +7,6 @@ editor: visual
 
 ::: rows
 ::: row
-<br> </br1>
 
 ![](images/Kwiz%20White%20logo%202400x1800-3-4.jpg)
 

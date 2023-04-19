@@ -10,7 +10,7 @@ website:
   
   navbar:
     foreground: "#1c4c9c"
-    logo: 'images/Kwiz Main Logo 2400x1800.jpg'
+    logo: 'images/Kwiz Logo Symbol 2400x1800.jpg'
     logo-alt: "Kwiz Computing Technologies"
     
     right:
