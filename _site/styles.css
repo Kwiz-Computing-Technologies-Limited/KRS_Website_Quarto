@@ -4,6 +4,9 @@
   color:#1b4a9c;
   text-align: center;
   font-style: italic;
+  
+  text-decoration: underline;
+  text-decoration-color: #ad9882;
 }
 
 .subtitle {
@@ -18,10 +21,16 @@
 .description {
   font-size: 25px;
   color: #ad9882;
-  text-decoration: underline;
+  
   text-align: center;
   font-style: italic;
   text-underline-offset: 8px;
+}
+
+.date {
+  font-size: 15px;
+  text-decoration: underline;
+  text-decoration-color: #ad9882;
 }
 
 h1 { /* Header 1 */
