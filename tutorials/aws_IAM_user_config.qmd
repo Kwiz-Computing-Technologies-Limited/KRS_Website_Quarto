@@ -6,6 +6,22 @@ editor: visual
 date: today
 ---
 
+<!-- Sendinblue Conversations {literal} -->
+<script>
+    (function(d, w, c) {
+        w.SibConversationsID = '643fda89e758061ca338bf4f';
+        w[c] = w[c] || function() {
+            (w[c].q = w[c].q || []).push(arguments);
+        };
+        var s = d.createElement('script');
+        s.async = true;
+        s.src = 'https://conversations-widget.sendinblue.com/sib-conversations.js';
+        if (d.head) d.head.appendChild(s);
+    })(document, window, 'SibConversations');
+</script>
+<!-- /Sendinblue Conversations {/literal} -->
+
+
 Secure your Amazon Cloud Service by defining <span>IAM Users, Groups and Roles</span> with **access** and using <span>IAM policies</span> to **control** permissions assigned. Create <span>Clients</span> to connect to <span>AWS Identity and Access Management</span> with the <span>paws::iam()</span> and select Amazon Cloud Services:
 
 <span>Amazon Simple Storage</span> with the <span>paws::s3()</span>, <span>Amazon DynamoDB</span> with the <span>paws::dynamodb()</span>, ... , <span>Amazon QLDB</span> with the <span>paws::qldb()</span>
