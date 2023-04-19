@@ -4,3 +4,14 @@ description: "Blogs | Tutorials | News"
 format: html
 editor: visual
 ---
+
+::: columns
+::: {.column width="100%"}
+[Sync Local Files/Folders to/from AWS S3 buckets with R](/tutorials/aws_s3_backups.qmd) 
+:::
+::: {.column width="5%"}
+:::
+::: {.column width="95%"}
+Optimize backups by synchronizing your local files/directories to s3 buckets on AWS cloud by: <span>Copying Local objects to S3</span> and <span>Copying S3 objects locally</span>. Create a <span>Client</span> to connect to <span>Amazon Simple Storage</span> with the <span>paws::s3()</span> and syncronize your files with <span>aws.s3::s3sync()</span>
+:::
+:::

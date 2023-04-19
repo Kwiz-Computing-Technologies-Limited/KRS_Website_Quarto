@@ -95,7 +95,7 @@
     "href": "demos.html",
     "title": "Samples",
     "section": "",
-    "text": "Business Dashboard | source code\n\n\n\n\n\nSurvival Analysis Calculator | source code\n\n\n\n\n \n\n\n\n\nSpecies Mapping Dashboard | source code\n\n\n\n\n\nWebsite | source code"
+    "text": "Business Dashboard | Github\n\n\n\n\n\nSurvival Analysis Calculator | Github\n\n\n\n\n \n\n\n\n\nSpecies Mapping Dashboard | Github\n\n\n\n\n\nWebsite | Github"
   },
   {
     "objectID": "consultations.html",
@@ -103,5 +103,54 @@
     "title": "Kwiz Computing Technologies",
     "section": "",
     "text": "Email   \n\n\n  Lets talk"
+  },
+  {
+    "objectID": "other/research.html",
+    "href": "other/research.html",
+    "title": "Research Solutions",
+    "section": "",
+    "text": "Research Solutions Coming Soon!!"
+  },
+  {
+    "objectID": "other/notes.html",
+    "href": "other/notes.html",
+    "title": "Kwiz Computing Technologies",
+    "section": "",
+    "text": "Value proposition website cookies: https://app.termsfeed.com/profile/register\nSoftware Development:\nsimple intuitive interfaces: built on top of heterogeneous cloud infrastructure (sky computing): providing robust, flexible and low cost solutions: in an automated, secure, interactive and unified abstraction layer: powered by R\nmodular infrastructure: for lean applications, quick prototypes and agile feature integration.\ndevelopment and deployment of efficient scalable back-end solutions fit for your needs\nCapacity Development:\nempower individuals and teams through training: demystifying the R programming language for statistical computing and software development\nfocus on: R, Automated workflows with R, Interacting with Web Technologies in R, Building Web Technologies with R, Integrating code from other programming languages (Python, javascript, react, CSS, HTML, …) to expand R functionality, and collaboration and reproducibility"
+  },
+  {
+    "objectID": "other/intro.html",
+    "href": "other/intro.html",
+    "title": "Kwiz Computing Technologies",
+    "section": "",
+    "text": "At Kwiz Research Services, we build customized data and software solutions for business and research. Our goal is to accelerate the adoption of data driven decision processes, integrating the best technologies for data management, processing and reporting.\nWe:"
+  },
+  {
+    "objectID": "other/training.html",
+    "href": "other/training.html",
+    "title": "Training",
+    "section": "",
+    "text": "We offer training to Individuals and Institutions on data analysis and software development integrating R programming and other software platforms including Python, Javascript, CSS, HTML, React and Database solutions."
+  },
+  {
+    "objectID": "other/data.html",
+    "href": "other/data.html",
+    "title": "Kwiz Computing Technologies",
+    "section": "",
+    "text": "KwizCoTech is a software company purposed to solve business and research problems in complex environments by designing algorithms and interactive applications to facilitate and automate high-performance computational and business workflows.\n\n\nValue proposition\nData science & Analytics:\nIT & Networking:\nWeb & Software Development:\nsimple intuitive interfaces: built on top of heterogeneous cloud infrastructure (sky computing): providing robust, flexible and low cost solutions: in an automated, secure, interactive and unified abstraction layer: powered by R\nmodular infrastructure: for lean applications, quick prototypes and agile feature integration.\nefficient scalable solutions fit for your needs\nCapacity Development:\nempower individuals and teams through training: demystifying the R programming language for statistical computing and software development\nfocus on: R, Automated workflows with R, Interacting with Web Technologies in R, Building Web Technologies with R, Integrating other programming languages to expand R functionality, and collaboration and reproducibility\n\n\n\n\n Our Solutions \n\n\n\n\n\n\n\nSoftware\n\nResearch\n\nTraining\n\n\n\n\n\n\n\n\n\n\n \n\n \n\n \n\n\n\n\n\n\n\n\n\nbuild - Shiny web applications for enterprise that;\n\nintegrate API calls to provision, deploy and manage secure and scalable cloud (AWS) resources\nintegrate Databases and solutions written in other popular languages (e.g Python)\n\ndesign and implement algorithms to automate Management and High Performance Mathematical Computing workflows\nauthor and publish with scientific markdown high-quality (e.g articles, reports, websites, blogs, … in HTML, PDF, MS Word, …)\ndeploy static and interactive web solutions created in R\n\n\n\nconsult on research methodologies and evaluation metrics\nreproducible data processing, analysis and the synthesis and presentation of results\n\n\nWe train Individuals and groups on:\n\nR programming language for Data Analysis\nR programming language for Software Development\n\n\n\n\n\n\n\n The Team \n\n\n\n\n\n\nKwizera Jean Victor: Co-Founder, CEO\n\nKwizera is an R Developer, Data Scientist, Researcher; with a background in Actuarial Science and Data Science, and with over 6 years experience Programming in and around the R programming language. He is passionate about open source technologies, mathematical computing and research.\nKwizera has worked in research and business consulting, including:\n\nmodeling and simulating ecological processes and financial trading strategies,\nevaluating sample data biases,\nbuilding forest inventory and climate models,\nanalyzing credit markets\n\nbuilding interactive dashboards and\nautomating workflows\n\nHe is a problem solver with keen interest in Automation, Integration, Mathematical Computing and Cloud Solutions.\n\n\n\n jeankwizera@kwizresearch.com\n\n\n\n\n\n\n\nIragena Vincent De Paul: Co-Founder, COO\n\nIragena is a graduate of Economics from the University of Nairobi. He is passionate about Project Management, operations and policy development. He also has interests in software and music and he invests some of his time developing electronic music.\n\n\n\n vindepaul@kwizresearch.com"
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Read",
+    "section": "",
+    "text": "Sync Local Files/Folders to/from AWS S3 buckets with R\n\n\n\nOptimize backups by synchronizing your local files/directories to s3 buckets on AWS cloud by: Copying Local objects to S3 and Copying S3 objects locally. Create a Client to connect to Amazon Simple Storage with the paws::s3() and syncronize your files with aws.s3::s3sync()"
+  },
+  {
+    "objectID": "tutorials/aws_s3_backups.html",
+    "href": "tutorials/aws_s3_backups.html",
+    "title": "Sync Local Files/Folders to/from AWS S3 with R",
+    "section": "",
+    "text": "Optimize backups by synchronizing your local files/directories to s3 buckets on AWS cloud by: Copying Local objects to S3 and Copying S3 objects locally. Create a Client to connect to Amazon Simple Storage with the paws::s3() and syncronize your files with aws.s3::s3sync()\n\nAmazon Simple Storage Service is cost-effective object storage service that allows you to store and protect any amount of data for virtually any use case. Visit Amazon S3 for details on the features, storage classes, security, pricing… and resources on using the service. In this tutorial, we will:"
   }
 ]

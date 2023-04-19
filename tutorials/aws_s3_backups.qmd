@@ -1,0 +1,22 @@
+---
+title: "Sync Local Files/Folders to/from AWS S3 with R"
+description: "R | Backup | Cloud | AWS | S3 buckets | paws package | aws.s3 package"
+format: html
+editor: visual
+---
+
+::: columns
+::: {.column width="100%"}
+Optimize backups by synchronizing your local files/directories to s3 buckets on AWS cloud by: <span>Copying Local objects to S3</span> and <span>Copying S3 objects locally</span>. Create a <span>Client</span> to connect to <span>Amazon Simple Storage</span> with the <span>paws::s3()</span> and syncronize your files with <span>aws.s3::s3sync()</span>
+:::
+::: {.column width="100%"}
+Amazon Simple Storage Service is <span>cost-effective</span> object storage service that allows you to store and protect any amount of data for virtually any use case. Visit [Amazon S3](https://aws.amazon.com/s3/) for details on the features, storage classes, security, pricing... and resources on using the service. In this tutorial, we will:
+:::
+::: {.column width="10%"}
+:::
+::: {.column width="90%"}
+* 
+*
+*
+:::
+:::

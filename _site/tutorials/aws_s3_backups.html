@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Experts in R | Computing Methods | Solutions Architecture">
+<meta name="description" content="R | Backup | Cloud | AWS | S3 buckets | paws package | aws.s3 package">
 
-<title>Kwiz Computing Technologies - Enterprise Applications and Big Data Solutions</title>
+<title>Kwiz Computing Technologies - Sync Local Files/Folders to/from AWS S3 with R</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,22 +24,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -61,7 +61,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -71,10 +71,10 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/Kwiz Main Logo 2400x1800.jpg" alt="Kwiz Computing Technologies" class="navbar-logo">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../images/Kwiz Main Logo 2400x1800.jpg" alt="Kwiz Computing Technologies" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Kwiz Computing Technologies</span>
     </a>
   </div>
@@ -84,19 +84,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page">
+    <a class="nav-link" href="../index.html">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./demos.html">
+    <a class="nav-link" href="../demos.html">
  <span class="menu-text">Demos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./resources.html">
+    <a class="nav-link" href="../resources.html">
  <span class="menu-text">Resource Centre</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./consultations.html">
+    <a class="nav-link" href="../consultations.html">
  <span class="menu-text">Consultations</span></a>
   </li>  
 </ul>
@@ -115,12 +115,12 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Enterprise Applications and Big Data Solutions</h1>
+<h1 class="title">Sync Local Files/Folders to/from AWS S3 with R</h1>
 </div>
 
 <div>
   <div class="description">
-    Experts in R | Computing Methods | Solutions Architecture
+    R | Backup | Cloud | AWS | S3 buckets | paws package | aws.s3 package
   </div>
 </div>
 
@@ -135,59 +135,19 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<div class="rows">
-<div class="row">
-<p><br> </p>
-<p><img src="images/Kwiz White logo 2400x1800-3-4.jpg" class="img-fluid"></p>
-<p><br>  <br> </p>
-<p>Kwiz Computing Technologies builds and maintains R shiny Applications and Algorithms for Computational and Enteprise workflows. We develop lean applications optimized for scale and security</p>
-</div>
-<div class="row">
-
-</div>
-<div class="row">
 <div class="columns">
-<div class="column" style="width:50%;">
-<p>We:</p>
-<div>
-<ul class="a">
-<li>
-Build Sky Computing Infrastructure
-</li>
-<li>
-Build Dashboards and Interactive Web Pages
-</li>
-<li>
-Consult on and Implement Advanced Statistical Models
-</li>
-<li>
-Create and Optimize Big Data Pipelines and Computational Workflows
-</li>
-<li>
-Debug and Customize existing R Shiny Applications and Data Science Workflows
-</li>
+<div class="column" style="width:100%;">
+<p>Optimize backups by synchronizing your local files/directories to s3 buckets on AWS cloud by: <span>Copying Local objects to S3</span> and <span>Copying S3 objects locally</span>. Create a <span>Client</span> to connect to <span>Amazon Simple Storage</span> with the <span>paws::s3()</span> and syncronize your files with <span>aws.s3::s3sync()</span></p>
+</div><div class="column" style="width:100%;">
+<p>Amazon Simple Storage Service is <span>cost-effective</span> object storage service that allows you to store and protect any amount of data for virtually any use case. Visit <a href="https://aws.amazon.com/s3/">Amazon S3</a> for details on the features, storage classes, security, pricing… and resources on using the service. In this tutorial, we will:</p>
+</div><div class="column" style="width:10%;">
+
+</div><div class="column" style="width:90%;">
+<ul>
+<li></li>
+<li></li>
+<li></li>
 </ul>
-</div>
-</div><div class="column" style="width:50%;">
-<p>You Get:</p>
-<div>
-<ul class="a">
-<li>
-Robust Multicloud applications
-</li>
-<li>
-Lean Modular Architecture
-</li>
-<li>
-Fast Prototyping
-</li>
-<li>
-Agile Teams
-</li>
-</ul>
-</div>
-</div>
-</div>
 </div>
 </div>
 
