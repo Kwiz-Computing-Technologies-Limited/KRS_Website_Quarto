@@ -1,22 +1,76 @@
 ---
-title: "Sync Local Files/Folders to/from AWS S3 with R"
-description: "R | Backup | Cloud | AWS | S3 buckets | paws package | aws.s3 package"
+title: "Sync Local Files/Folders to/from AWS S3 (with R)"
+description: "R | Backup | Cloud | Storage | AWS | S3 buckets | paws package | aws.s3 package"
 format: html
 editor: visual
+date: today
 ---
+
+```{r}
+#| echo: FALSE
+library(paws)
+library(quarto)
+```
+
+
 
 ::: columns
 ::: {.column width="100%"}
-Optimize backups by synchronizing your local files/directories to s3 buckets on AWS cloud by: <span>Copying Local objects to S3</span> and <span>Copying S3 objects locally</span>. Create a <span>Client</span> to connect to <span>Amazon Simple Storage</span> with the <span>paws::s3()</span> and syncronize your files with <span>aws.s3::s3sync()</span>
+Optimize backups by synchronizing local files/directories to s3 buckets on AWS cloud by: <span>Copying Local objects to S3</span> and <span>Copying S3 objects locally</span>. Create a <span>Client</span> to connect to <span>Amazon Simple Storage</span> with the <span>paws::s3()</span> and synchronize files with <span>aws.s3::s3sync()</span>
+
+
 :::
 ::: {.column width="100%"}
-Amazon Simple Storage Service is <span>cost-effective</span> object storage service that allows you to store and protect any amount of data for virtually any use case. Visit [Amazon S3](https://aws.amazon.com/s3/) for details on the features, storage classes, security, pricing... and resources on using the service. In this tutorial, we will:
+Amazon Simple Storage Service is <span>cost-effective</span> object storage service that allows you to store and protect any amount of data for virtually any use case. Visit [Amazon S3](https://aws.amazon.com/s3/) for details on the features, storage classes, security, pricing... and resources on using the service. 
+
+In this tutorial, we:
 :::
-::: {.column width="10%"}
+::: {.column width="5%"}
 :::
-::: {.column width="90%"}
-* 
-*
-*
+::: {.column width="95%"}
+
+<ul class="b">
+  <li> **ASSUME** you have an active AWS [IAM User](/tutorials/aws_IAM_user_config.qmd) account configured inline with [AWS's IAM security best practices](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html)</li> 
+  
+  <li> **WILL** retrieve the <span>Access Keys (ACCESS_KEY_ID and SECRET_ACCESS_KEY)</span> corresponding to this user to enable us make programmatic calls to AWS</li>
+  
+  <li> **WILL** initialize <span>Client Connections</span> using the Access Keys we have retrieved to send requests to Amazon Simple Storage Service and AWS Identity and Access Management</li>
+  
+  <li> **WILL** configure and attach an <span>IAM user policy</span> to the IAM user with permissions to perform specific actions within Amazon Simple Storage Service (AWS S3) i.e to <span> create buckets</span>, to <span> write/put objects into bucket</span> and to save/get objects from buckets<span> </span></li>
+  
+  <li> **WILL** sync a Local directory/folder with an <span>existing S3 bucket</span></li>
+  
+  <li> **WILL** initialize a <span>new S3 bucket</span> and sync <span>local directory/folder</span></li>
+</ul>
+
+:::
+::: {.column width="100%"}
+## Access Keys
+
+
+:::
+::: {.column width="100%"}
+## AWS Client Connections
+
+
+:::
+::: {.column width="100%"}
+## User Policy Configuration
+
+
+:::
+::: {.column width="100%"}
+## Creating New S3 Bucket
+
+
+:::
+::: {.column width="100%"}
+## Sync Local Directory with S3 Bucket
+
+
 :::
 :::
+
+
+
+<span class="updating">(updating ...)</span>

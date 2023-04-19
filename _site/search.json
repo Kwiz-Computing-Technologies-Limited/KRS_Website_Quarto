@@ -1,110 +1,5 @@
 [
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research Solutions",
-    "section": "",
-    "text": "Research Solutions Coming Soon!!"
-  },
-  {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "Kwiz Computing Technologies Limited",
-    "section": "",
-    "text": "At Kwiz Research Services, we build customized data and software solutions for business and research. Our goal is to accelerate the adoption of data driven decision processes, integrating the best technologies for data management, processing and reporting.\nWe:"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Enterprise Applications and Big Data Solutions",
-    "section": "",
-    "text": "Kwiz Computing Technologies builds and maintains R shiny Applications and Algorithms for Computational and Enteprise workflows. We develop lean applications optimized for scale and security\n\n\n\n\n\n\n\nWe:\n\n\n\nBuild Sky Computing Infrastructure\n\n\nBuild Dashboards and Interactive Web Pages\n\n\nConsult on and Implement Advanced Statistical Models\n\n\nCreate and Optimize Big Data Pipelines and Computational Workflows\n\n\nDebug and Customize existing R Shiny Applications and Data Science Workflows\n\n\n\n\nYou Get:\n\n\n\nRobust Multicloud applications\n\n\nLean Modular Architecture\n\n\nFast Prototyping\n\n\nAgile Teams"
-  },
-  {
-    "objectID": "index.html#research-and-software-solutions",
-    "href": "index.html#research-and-software-solutions",
-    "title": "Home",
-    "section": "Research and Software Solutions",
-    "text": "Research and Software Solutions\nWhat we do:\nSoftware Solutions\n\nbuild R/Shiny web applications for enterprise that;\n\nintegrate API calls to provision, deploy and manage secure and scalable cloud (AWS) resources\nintegrate Databases and solutions written in other popular languages (e.g Python)\n\ndesign and implement algorithms to automate Management and High Performance Mathematical Computing workflows\nauthor and publish with scientific markdown high-quality (e.g articles, reports, websites, blogs, … in HTML, PDF, MS Word, …)\ndeploy static and interactive web solutions created in R\n\nResearch Solutions\n\nconsult on research methodologies and evaluation metrics\nreproducible data processing, analysis and the synthesis and presentation of results"
-  },
-  {
-    "objectID": "training.html",
-    "href": "training.html",
-    "title": "Training",
-    "section": "",
-    "text": "We offer training to Individuals and Institutions on data analysis and software development integrating R programming and other software platforms including Python, Javascript, CSS, HTML, React and Database solutions."
-  },
-  {
-    "objectID": "data.html",
-    "href": "data.html",
-    "title": "Kwiz Computing Technologies Limited",
-    "section": "",
-    "text": "KwizCoTech is a software company purposed to solve business and research problems in complex environments by designing algorithms and interactive applications to facilitate and automate high-performance computational and business workflows.\n\n\nValue proposition\nData science & Analytics:\nIT & Networking:\nWeb & Software Development:\nsimple intuitive interfaces: built on top of heterogeneous cloud infrastructure (sky computing): providing robust, flexible and low cost solutions: in an automated, secure, interactive and unified abstraction layer: powered by R\nmodular infrastructure: for lean applications, quick prototypes and agile feature integration.\nefficient scalable solutions fit for your needs\nCapacity Development:\nempower individuals and teams through training: demystifying the R programming language for statistical computing and software development\nfocus on: R, Automated workflows with R, Interacting with Web Technologies in R, Building Web Technologies with R, Integrating other programming languages to expand R functionality, and collaboration and reproducibility\n\n\n\n\n Our Solutions \n\n\n\n\n\n\n\nSoftware\n\nResearch\n\nTraining\n\n\n\n\n\n\n\n\n\n\n \n\n \n\n \n\n\n\n\n\n\n\n\n\nbuild - Shiny web applications for enterprise that;\n\nintegrate API calls to provision, deploy and manage secure and scalable cloud (AWS) resources\nintegrate Databases and solutions written in other popular languages (e.g Python)\n\ndesign and implement algorithms to automate Management and High Performance Mathematical Computing workflows\nauthor and publish with scientific markdown high-quality (e.g articles, reports, websites, blogs, … in HTML, PDF, MS Word, …)\ndeploy static and interactive web solutions created in R\n\n\n\nconsult on research methodologies and evaluation metrics\nreproducible data processing, analysis and the synthesis and presentation of results\n\n\nWe train Individuals and groups on:\n\nR programming language for Data Analysis\nR programming language for Software Development\n\n\n\n\n\n\n\n The Team \n\n\n\n\n\n\nKwizera Jean Victor: Co-Founder, CEO\n\nKwizera is an R Developer, Data Scientist, Researcher; with a background in Actuarial Science and Data Science, and with over 6 years experience Programming in and around the R programming language. He is passionate about open source technologies, mathematical computing and research.\nKwizera has worked in research and business consulting, including:\n\nmodeling and simulating ecological processes and financial trading strategies,\nevaluating sample data biases,\nbuilding forest inventory and climate models,\nanalyzing credit markets\n\nbuilding interactive dashboards and\nautomating workflows\n\nHe is a problem solver with keen interest in Automation, Integration, Mathematical Computing and Cloud Solutions.\n\n\n\n jeankwizera@kwizresearch.com\n\n\n\n\n\n\n\nIragena Vincent De Paul: Co-Founder, COO\n\nIragena is a graduate of Economics from the University of Nairobi. He is passionate about Project Management, operations and policy development. He also has interests in software and music and he invests some of his time developing electronic music.\n\n\n\n vindepaul@kwizresearch.com"
-  },
-  {
-    "objectID": "index.html#we-use-the-r-programming-language-as-the-backbone-for-our-development-leveraging-its-robust-suit-of-libraries-to-create-efficient-highly-scalable-solutions-for-high-perfomance-computing-fast-prototyping-and-productionization-seamlessly-integrate-cloud-solutions-and-other-programming-languages.",
-    "href": "index.html#we-use-the-r-programming-language-as-the-backbone-for-our-development-leveraging-its-robust-suit-of-libraries-to-create-efficient-highly-scalable-solutions-for-high-perfomance-computing-fast-prototyping-and-productionization-seamlessly-integrate-cloud-solutions-and-other-programming-languages.",
-    "title": "Home",
-    "section": "We use the R programming Language as the backbone for our development, leveraging its robust suit of libraries to create efficient highly-scalable solutions for high perfomance computing, fast prototyping and productionization, seamlessly integrate cloud solutions and other programming languages.",
-    "text": "We use the R programming Language as the backbone for our development, leveraging its robust suit of libraries to create efficient highly-scalable solutions for high perfomance computing, fast prototyping and productionization, seamlessly integrate cloud solutions and other programming languages."
-  },
-  {
-    "objectID": "index.html#software-solutions",
-    "href": "index.html#software-solutions",
-    "title": "Home",
-    "section": "Software Solutions",
-    "text": "Software Solutions\nWhat we do:\nSoftware Solutions\n\nbuild R/Shiny web applications for enterprise that;\n\nintegrate API calls to provision, deploy and manage secure and scalable cloud (AWS) resources\nintegrate Databases and solutions written in other popular languages (e.g Python)\n\ndesign and implement algorithms to automate Management and High Performance Mathematical Computing workflows\nauthor and publish with scientific markdown high-quality (e.g articles, reports, websites, blogs, … in HTML, PDF, MS Word, …)\ndeploy static and interactive web solutions created in R\n\nResearch Solutions\n\nconsult on research methodologies and evaluation metrics\nreproducible data processing, analysis and the synthesis and presentation of results"
-  },
-  {
-    "objectID": "notes.html",
-    "href": "notes.html",
-    "title": "Kwiz Computing Technologies Limited",
-    "section": "",
-    "text": "Value proposition website cookies: https://app.termsfeed.com/profile/register\nSoftware Development:\nsimple intuitive interfaces: built on top of heterogeneous cloud infrastructure (sky computing): providing robust, flexible and low cost solutions: in an automated, secure, interactive and unified abstraction layer: powered by R\nmodular infrastructure: for lean applications, quick prototypes and agile feature integration.\ndevelopment and deployment of efficient scalable back-end solutions fit for your needs\nCapacity Development:\nempower individuals and teams through training: demystifying the R programming language for statistical computing and software development\nfocus on: R, Automated workflows with R, Interacting with Web Technologies in R, Building Web Technologies with R, Integrating code from other programming languages (Python, javascript, react, CSS, HTML, …) to expand R functionality, and collaboration and reproducibility"
-  },
-  {
-    "objectID": "index_archive.html",
-    "href": "index_archive.html",
-    "title": "Kwiz Computing Technologies Limited",
-    "section": "",
-    "text": "Email   \n\n\n  Lets talk"
-  },
-  {
-    "objectID": "index.html#consult",
-    "href": "index.html#consult",
-    "title": "Enterprise Applications and Big Data Solutions",
-    "section": "Consult",
-    "text": "Consult"
-  },
-  {
-    "objectID": "index.html#you-get",
-    "href": "index.html#you-get",
-    "title": "Enterprise Applications and Big Data Solutions",
-    "section": "You get:",
-    "text": "You get:\n\nLean Modular Architecture\nFast Prototypes\nAgile teams"
-  },
-  {
-    "objectID": "play.html",
-    "href": "play.html",
-    "title": "Samples",
-    "section": "",
-    "text": "Business Dashboard\n\n\n\nSurvival Analysis Calculator\n\n\n\nSpecies Mapping Dashboard"
-  },
-  {
-    "objectID": "demos.html",
-    "href": "demos.html",
-    "title": "Samples",
-    "section": "",
-    "text": "Business Dashboard | Github\n\n\n\n\n\nSurvival Analysis Calculator | Github\n\n\n\n\n \n\n\n\n\nSpecies Mapping Dashboard | Github\n\n\n\n\n\nWebsite | Github"
-  },
-  {
-    "objectID": "consultations.html",
-    "href": "consultations.html",
-    "title": "Kwiz Computing Technologies",
-    "section": "",
-    "text": "Email   \n\n\n  Lets talk"
-  },
-  {
     "objectID": "other/research.html",
     "href": "other/research.html",
     "title": "Research Solutions",
@@ -140,17 +35,80 @@
     "text": "KwizCoTech is a software company purposed to solve business and research problems in complex environments by designing algorithms and interactive applications to facilitate and automate high-performance computational and business workflows.\n\n\nValue proposition\nData science & Analytics:\nIT & Networking:\nWeb & Software Development:\nsimple intuitive interfaces: built on top of heterogeneous cloud infrastructure (sky computing): providing robust, flexible and low cost solutions: in an automated, secure, interactive and unified abstraction layer: powered by R\nmodular infrastructure: for lean applications, quick prototypes and agile feature integration.\nefficient scalable solutions fit for your needs\nCapacity Development:\nempower individuals and teams through training: demystifying the R programming language for statistical computing and software development\nfocus on: R, Automated workflows with R, Interacting with Web Technologies in R, Building Web Technologies with R, Integrating other programming languages to expand R functionality, and collaboration and reproducibility\n\n\n\n\n Our Solutions \n\n\n\n\n\n\n\nSoftware\n\nResearch\n\nTraining\n\n\n\n\n\n\n\n\n\n\n \n\n \n\n \n\n\n\n\n\n\n\n\n\nbuild - Shiny web applications for enterprise that;\n\nintegrate API calls to provision, deploy and manage secure and scalable cloud (AWS) resources\nintegrate Databases and solutions written in other popular languages (e.g Python)\n\ndesign and implement algorithms to automate Management and High Performance Mathematical Computing workflows\nauthor and publish with scientific markdown high-quality (e.g articles, reports, websites, blogs, … in HTML, PDF, MS Word, …)\ndeploy static and interactive web solutions created in R\n\n\n\nconsult on research methodologies and evaluation metrics\nreproducible data processing, analysis and the synthesis and presentation of results\n\n\nWe train Individuals and groups on:\n\nR programming language for Data Analysis\nR programming language for Software Development\n\n\n\n\n\n\n\n The Team \n\n\n\n\n\n\nKwizera Jean Victor: Co-Founder, CEO\n\nKwizera is an R Developer, Data Scientist, Researcher; with a background in Actuarial Science and Data Science, and with over 6 years experience Programming in and around the R programming language. He is passionate about open source technologies, mathematical computing and research.\nKwizera has worked in research and business consulting, including:\n\nmodeling and simulating ecological processes and financial trading strategies,\nevaluating sample data biases,\nbuilding forest inventory and climate models,\nanalyzing credit markets\n\nbuilding interactive dashboards and\nautomating workflows\n\nHe is a problem solver with keen interest in Automation, Integration, Mathematical Computing and Cloud Solutions.\n\n\n\n jeankwizera@kwizresearch.com\n\n\n\n\n\n\n\nIragena Vincent De Paul: Co-Founder, COO\n\nIragena is a graduate of Economics from the University of Nairobi. He is passionate about Project Management, operations and policy development. He also has interests in software and music and he invests some of his time developing electronic music.\n\n\n\n vindepaul@kwizresearch.com"
   },
   {
-    "objectID": "resources.html",
-    "href": "resources.html",
-    "title": "Read",
+    "objectID": "demos.html",
+    "href": "demos.html",
+    "title": "Samples",
     "section": "",
-    "text": "Sync Local Files/Folders to/from AWS S3 buckets with R\n\n\n\nOptimize backups by synchronizing your local files/directories to s3 buckets on AWS cloud by: Copying Local objects to S3 and Copying S3 objects locally. Create a Client to connect to Amazon Simple Storage with the paws::s3() and syncronize your files with aws.s3::s3sync()"
+    "text": "Business Dashboard | Github\n\n\n\n\n\nSurvival Analysis Calculator | Github\n\n\n\n\n \n\n\n\n\nSpecies Mapping Dashboard | Github\n\n\n\n\n\nWebsite | Github"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Enterprise Applications and Big Data Solutions",
+    "section": "",
+    "text": "Kwiz Computing Technologies builds and maintains R shiny Applications and Algorithms for Computational and Enteprise workflows. We develop lean applications optimized for scale and security\n\n\n\n\n\n\n\nWe:\n\n\n\nBuild Sky Computing Infrastructure\n\n\nBuild Dashboards and Interactive Web Pages\n\n\nConsult on and Implement Advanced Statistical Models\n\n\nCreate and Optimize Big Data Pipelines and Computational Workflows\n\n\nDebug and Customize existing R Shiny Applications and Data Science Workflows\n\n\n\n\nYou Get:\n\n\n\nRobust Multicloud applications\n\n\nLean Modular Architecture\n\n\nFast Prototyping\n\n\nAgile Teams"
   },
   {
     "objectID": "tutorials/aws_s3_backups.html",
     "href": "tutorials/aws_s3_backups.html",
-    "title": "Sync Local Files/Folders to/from AWS S3 with R",
+    "title": "Sync Local Files/Folders to/from AWS S3 (with R)",
     "section": "",
-    "text": "Optimize backups by synchronizing your local files/directories to s3 buckets on AWS cloud by: Copying Local objects to S3 and Copying S3 objects locally. Create a Client to connect to Amazon Simple Storage with the paws::s3() and syncronize your files with aws.s3::s3sync()\n\nAmazon Simple Storage Service is cost-effective object storage service that allows you to store and protect any amount of data for virtually any use case. Visit Amazon S3 for details on the features, storage classes, security, pricing… and resources on using the service. In this tutorial, we will:"
+    "text": "(updating …)"
+  },
+  {
+    "objectID": "tutorials/aws_s3_backups.html#access-keys",
+    "href": "tutorials/aws_s3_backups.html#access-keys",
+    "title": "Sync Local Files/Folders to/from AWS S3 (with R)",
+    "section": "Access Keys",
+    "text": "Access Keys"
+  },
+  {
+    "objectID": "tutorials/aws_s3_backups.html#aws-client-connections",
+    "href": "tutorials/aws_s3_backups.html#aws-client-connections",
+    "title": "Sync Local Files/Folders to/from AWS S3 (with R)",
+    "section": "AWS Client Connections",
+    "text": "AWS Client Connections"
+  },
+  {
+    "objectID": "tutorials/aws_s3_backups.html#user-policy-configuration",
+    "href": "tutorials/aws_s3_backups.html#user-policy-configuration",
+    "title": "Sync Local Files/Folders to/from AWS S3 (with R)",
+    "section": "User Policy Configuration",
+    "text": "User Policy Configuration"
+  },
+  {
+    "objectID": "tutorials/aws_s3_backups.html#creating-new-s3-bucket",
+    "href": "tutorials/aws_s3_backups.html#creating-new-s3-bucket",
+    "title": "Sync Local Files/Folders to/from AWS S3 (with R)",
+    "section": "Creating New S3 Bucket",
+    "text": "Creating New S3 Bucket"
+  },
+  {
+    "objectID": "tutorials/aws_s3_backups.html#sync-local-directory-with-s3-bucket",
+    "href": "tutorials/aws_s3_backups.html#sync-local-directory-with-s3-bucket",
+    "title": "Sync Local Files/Folders to/from AWS S3 (with R)",
+    "section": "Sync Local Directory with S3 Bucket",
+    "text": "Sync Local Directory with S3 Bucket"
+  },
+  {
+    "objectID": "tutorials/aws_IAM_user_config.html",
+    "href": "tutorials/aws_IAM_user_config.html",
+    "title": "Create AWS IAM Users and Configure User Permisions for select AWS Cloud Services with IAM Policies (with R)",
+    "section": "",
+    "text": "Secure your Amazon Cloud Service by defining IAM Users, Groups and Roles with access and using IAM policies to control permissions assigned. Create Clients to connect to AWS Identity and Access Management with the paws::iam() and select Amazon Cloud Services:\nAmazon Simple Storage with the paws::s3(), Amazon DynamoDB with the paws::dynamodb(), … , Amazon QLDB with the paws::qldb()\n(updating …)"
+  },
+  {
+    "objectID": "consultations.html",
+    "href": "consultations.html",
+    "title": "Kwiz Computing Technologies",
+    "section": "",
+    "text": "Email   \n\n\n  Lets talk"
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Read",
+    "section": "",
+    "text": "Sync Local Files/Folders to/from AWS S3 buckets (with R)\n\n\n\nOptimize backups by synchronizing your local files/directories to s3 buckets on AWS cloud by: Copying Local objects to S3 and Copying S3 objects locally. Create a Client to connect to Amazon Simple Storage with the paws::s3() and syncronize your files with aws.s3::s3sync()\n\nCreate AWS IAM Users and Configure User Permisions for select AWS Cloud Services with IAM Policies (with R)\n\n\n\nSecure your Amazon Cloud Service by defining IAM Users, Groups and Roles with access and using IAM policies to control permissions assigned. Create Clients to connect to AWS Identity and Access Management with the paws::iam() and select Amazon Cloud Services:\nAmazon Simple Storage with the paws::s3(), Amazon DynamoDB with the paws::dynamodb(), … , Amazon QLDB with the paws::qldb()"
   }
 ]

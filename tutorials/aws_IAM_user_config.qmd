@@ -1,0 +1,13 @@
+---
+title: "Create AWS IAM Users and Configure User Permisions for select AWS Cloud Services with IAM Policies (with R)"
+description: "R | Security | Cloud | Storage | Database | AWS | S3 buckets | dynamoDB | QLDB | paws package"
+format: html
+editor: visual
+date: today
+---
+
+Secure your Amazon Cloud Service by defining <span>IAM Users, Groups and Roles</span> with **access** and using <span>IAM policies</span> to **control** permissions assigned. Create <span>Clients</span> to connect to <span>AWS Identity and Access Management</span> with the <span>paws::iam()</span> and select Amazon Cloud Services:
+
+<span>Amazon Simple Storage</span> with the <span>paws::s3()</span>, <span>Amazon DynamoDB</span> with the <span>paws::dynamodb()</span>, ... , <span>Amazon QLDB</span> with the <span>paws::qldb()</span>
+
+<span class="updating">(updating ...)</span>

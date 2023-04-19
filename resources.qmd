@@ -7,11 +7,22 @@ editor: visual
 
 ::: columns
 ::: {.column width="100%"}
-[Sync Local Files/Folders to/from AWS S3 buckets with R](/tutorials/aws_s3_backups.qmd) 
+[Sync Local Files/Folders to/from AWS S3 buckets (with R)](/tutorials/aws_s3_backups.qmd) 
 :::
 ::: {.column width="5%"}
 :::
 ::: {.column width="95%"}
 Optimize backups by synchronizing your local files/directories to s3 buckets on AWS cloud by: <span>Copying Local objects to S3</span> and <span>Copying S3 objects locally</span>. Create a <span>Client</span> to connect to <span>Amazon Simple Storage</span> with the <span>paws::s3()</span> and syncronize your files with <span>aws.s3::s3sync()</span>
 :::
+::: {.columns width="100%"}
+[Create AWS IAM Users and Configure User Permisions for select AWS Cloud Services with IAM Policies (with R)](/tutorials/aws_IAM_user_config.qmd)
 :::
+::: {.column width="5%"}
+:::
+::: {.column width="95%"}
+Secure your Amazon Cloud Service by defining <span>IAM Users, Groups and Roles</span> with **access** and using <span>IAM policies</span> to **control** permissions assigned. Create <span>Clients</span> to connect to <span>AWS Identity and Access Management</span> with the <span>paws::iam()</span> and select Amazon Cloud Services:
+
+<span>Amazon Simple Storage</span> with the <span>paws::s3()</span>, <span>Amazon DynamoDB</span> with the <span>paws::dynamodb()</span>, ... , <span>Amazon QLDB</span> with the <span>paws::qldb()</span>
+:::
+:::
+

@@ -88,12 +88,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./demos.html">
- <span class="menu-text">Demos</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link active" href="./resources.html" aria-current="page">
  <span class="menu-text">Resource Centre</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./demos.html">
+ <span class="menu-text">Demos</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./consultations.html">
@@ -137,11 +137,18 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="columns">
 <div class="column" style="width:100%;">
-<p><a href="./tutorials/aws_s3_backups.html">Sync Local Files/Folders to/from AWS S3 buckets with R</a></p>
+<p><a href="./tutorials/aws_s3_backups.html">Sync Local Files/Folders to/from AWS S3 buckets (with R)</a></p>
 </div><div class="column" style="width:5%;">
 
 </div><div class="column" style="width:95%;">
 <p>Optimize backups by synchronizing your local files/directories to s3 buckets on AWS cloud by: <span>Copying Local objects to S3</span> and <span>Copying S3 objects locally</span>. Create a <span>Client</span> to connect to <span>Amazon Simple Storage</span> with the <span>paws::s3()</span> and syncronize your files with <span>aws.s3::s3sync()</span></p>
+</div><div class="columns" width="100%">
+<p><a href="./tutorials/aws_IAM_user_config.html">Create AWS IAM Users and Configure User Permisions for select AWS Cloud Services with IAM Policies (with R)</a></p>
+</div><div class="column" style="width:5%;">
+
+</div><div class="column" style="width:95%;">
+<p>Secure your Amazon Cloud Service by defining <span>IAM Users, Groups and Roles</span> with <strong>access</strong> and using <span>IAM policies</span> to <strong>control</strong> permissions assigned. Create <span>Clients</span> to connect to <span>AWS Identity and Access Management</span> with the <span>paws::iam()</span> and select Amazon Cloud Services:</p>
+<p><span>Amazon Simple Storage</span> with the <span>paws::s3()</span>, <span>Amazon DynamoDB</span> with the <span>paws::dynamodb()</span>, … , <span>Amazon QLDB</span> with the <span>paws::qldb()</span></p>
 </div>
 </div>
 
