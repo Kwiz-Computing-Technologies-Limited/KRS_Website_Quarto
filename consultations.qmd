@@ -7,6 +7,11 @@ editor:
     wrap: 72
 ---
 
+<!-- fontawesome icons  -->
+<script src="https://kit.fontawesome.com/c807397498.js" crossorigin="anonymous"></script>
+<!-- /fontawesome icons {/literal} -->
+
+
 <!-- Sendinblue Conversations {literal} -->
 <script>
     (function(d, w, c) {
@@ -23,27 +28,25 @@ editor:
 <!-- /Sendinblue Conversations {/literal} -->
 
 
-```{r, echo=FALSE}
-#| context: server-start
-#| echo: false
-library(shiny)
-```
-
-```{r, echo=FALSE}
-#| context: server
-#| eval: true
-user_name = textInput("user_email", strong("Email"), placeholder = "example@gmail.com",
-                      width = "40%")
-user_query = textInput("user_query", strong("Lets talk"), placeholder = "start typing ...",
-                       width = "100%")
-```
-
-::: rows
-::: {.row width="10%"}
-`r # user_name`
+::: columns
+::: {.column width="20%"}
 :::
-::: {.row width="40%"}
-`r # user_query`
+::: {.column width="30%"}
+<a href="mailto:admin@kwizresearch.com"> <i class="fa-solid fa-envelope fa-beat fa-2xl" style="color: #ad9882;"></i>   Email </a> 
+:::
+::: {.column width="30%"}
+<a href="https://wa.me/+254748350734"> <i class="fa-brands fa-whatsapp fa-beat fa-2xl" style="color: #ad9882;"></i>  Message on WhatsApp </a>
+:::
+
+<br> </br>
+
+::: {.column width="20%"}
+:::
+::: {.column width="30%"}
+<a href="https://www.linkedin.com/company/kwizresearch/">  <i class="fa-brands fa-linkedin fa-beat fa-2xl" style="color: #ad9882;"></i>  Follow on LinkedIn </a>
+:::
+::: {.column width="30%"}
+<a href="https://github.com/Kwiz-Computing-Technologies-Limited"> <i class="fa-brands fa-github fa-beat fa-2xl" style="color: #ad9882;"></i>  Follow on Github </a>
 :::
 :::
 
