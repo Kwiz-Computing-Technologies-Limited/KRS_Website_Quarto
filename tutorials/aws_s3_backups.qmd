@@ -1,12 +1,18 @@
 ---
 title: "Sync Local Files/Folders to/from AWS S3 (with R)"
 description: "R | Backup | Cloud | Storage | AWS | S3 buckets | paws package | aws.s3 package"
-format: html
+format: 
+  html:
+    code-fold: false
 editor: visual
 date: today
+execute: 
+  eval: false
 ---
 
 <!-- Sendinblue Conversations {literal} -->
+
+```{=html}
 <script>
     (function(d, w, c) {
         w.SibConversationsID = '643fda89e758061ca338bf4f';
@@ -19,74 +25,114 @@ date: today
         if (d.head) d.head.appendChild(s);
     })(document, window, 'SibConversations');
 </script>
+```
 <!-- /Sendinblue Conversations {/literal} -->
 
+::: columns
+::: {.column width="100%"}
+Optimize backups by synchronizing local files/directories to s3 buckets on AWS cloud by: Copying Local objects to S3 and Copying S3 objects locally. Create a Client to connect to Amazon Simple Storage with the paws::s3() and synchronize files with aws.s3::s3sync()
+:::
+
+::: {.column width="100%"}
+Amazon Simple Storage Service is a cost-effective object storage service that allows you to store and protect any amount of data for virtually any use case. Visit [Amazon S3](https://aws.amazon.com/s3/) for details on the features, storage classes, security, pricing... and resources on using the service.
+
+In this tutorial, we:
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="95%"}
+<ul class="b">
+
+<li>**ASSUME** you have an active AWS [IAM User](/tutorials/aws_IAM_user_config.qmd) account configured inline with [AWS's IAM security best practices](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html)</li>
+
+<li>**WILL** retrieve the Access Keys (ACCESS_KEY_ID and SECRET_ACCESS_KEY) corresponding to this user to enable us make programmatic calls to AWS</li>
+
+<li>**WILL** initialize Client Connections using the Access Keys we have retrieved to send requests to Amazon Simple Storage Service and AWS Identity and Access Management</li>
+
+<li>**WILL** configure and attach an IAM user policy to the IAM user with permissions to perform specific actions within Amazon Simple Storage Service (AWS S3) i.e to create buckets, to write/put objects into bucket and to save/get objects from buckets</li>
+
+<li>**WILL** sync a Local directory/folder with an existing S3 bucket</li>
+
+<li>**WILL** initialize a new S3 bucket and sync local directory/folder</li>
+
+</ul>
+:::
+
+::: {.column width="100%"}
+## Access Keys
+
+Visit [AWS](https://go.aws/3UZOkhR) and enter your 12-digit Account ID or account alias, your IAM User name and Password to sign in.
+
+If you do not have an IAM User name and password, follow the log in to your root user account and follow the [steps](/tutorials/aws_IAM_user_config.qmd) to configure one.
+
+NOTE: It is [best practice](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#lock-away-credentials) NOT to use your root user account for your everyday tasks. Remember to secure your account with other features such as MFA.
+
+Now that you are logged in, go to Services \> Security, Identity, & Compliance \> IAM
+
+Under Access Management, select Users
+
+Click on the user name your are interested in working with and on the page that opens, go to Security credentials
+
+Scroll to the Access keys section and create access key. Select the environment where you intend to use the access keys, Set description tag (optional) and retrieve your access keys. These are a pair consisting an an ACCESS_KEY_ID and a SECRET_ACCESS_KEY
+
+Let's define environment variables with these keys as follows:
 
 ```{r}
-#| echo: FALSE
+#| eval: false
+
+Sys.setenv(AWS_ACCESS_KEY_ID="XXXXXXXXXXXXXXXXXXXX")
+Sys.setenv(AWS_SECRET_ACCESS_KEY="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+```
+:::
+
+::: {.column width="100%"}
+## AWS Client Connections
+
+```{r}
+#| echo: true
+#| message: false
+#| warning: false
+#| eval: true
+
+
 library(paws)
 library(quarto)
 ```
 
+```{r}
+#| eval: false
 
 
-::: columns
-::: {.column width="100%"}
-Optimize backups by synchronizing local files/directories to s3 buckets on AWS cloud by: <span>Copying Local objects to S3</span> and <span>Copying S3 objects locally</span>. Create a <span>Client</span> to connect to <span>Amazon Simple Storage</span> with the <span>paws::s3()</span> and synchronize files with <span>aws.s3::s3sync()</span>
-
-
+iam_connection = function() {
+  paws::iam(
+    config = list(
+      credentials = list(
+        creds = list(
+          access_key_id = Sys.getenv("AWS_ADMIN_LOCAL_ACCESS_KEY_ID"),
+          secret_access_key = Sys.getenv("AWS_ADMIN_LOCAL_SECRET_ACCESS_KEY")
+        ),
+        profile = Sys.getenv("AWS_PROFILE")
+      ),
+      region = Sys.getenv("AWS_REGION")
+    )
+  )
+}
+```
 :::
-::: {.column width="100%"}
-Amazon Simple Storage Service is a <span>cost-effective</span> object storage service that allows you to store and protect any amount of data for virtually any use case. Visit [Amazon S3](https://aws.amazon.com/s3/) for details on the features, storage classes, security, pricing... and resources on using the service. 
 
-In this tutorial, we:
-:::
-::: {.column width="5%"}
-:::
-::: {.column width="95%"}
-
-<ul class="b">
-  <li> **ASSUME** you have an active AWS [IAM User](/tutorials/aws_IAM_user_config.qmd) account configured inline with [AWS's IAM security best practices](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html)</li> 
-  
-  <li> **WILL** retrieve the <span>Access Keys (ACCESS_KEY_ID and SECRET_ACCESS_KEY)</span> corresponding to this user to enable us make programmatic calls to AWS</li>
-  
-  <li> **WILL** initialize <span>Client Connections</span> using the Access Keys we have retrieved to send requests to Amazon Simple Storage Service and AWS Identity and Access Management</li>
-  
-  <li> **WILL** configure and attach an <span>IAM user policy</span> to the IAM user with permissions to perform specific actions within Amazon Simple Storage Service (AWS S3) i.e to <span> create buckets</span>, to <span> write/put objects into bucket</span> and to save/get objects from buckets<span> </span></li>
-  
-  <li> **WILL** sync a Local directory/folder with an <span>existing S3 bucket</span></li>
-  
-  <li> **WILL** initialize a <span>new S3 bucket</span> and sync <span>local directory/folder</span></li>
-</ul>
-
-:::
-::: {.column width="100%"}
-## Access Keys
-
-
-:::
-::: {.column width="100%"}
-## AWS Client Connections
-
-
-:::
 ::: {.column width="100%"}
 ## User Policy Configuration
-
-
 :::
+
 ::: {.column width="100%"}
 ## Creating New S3 Bucket
-
-
 :::
+
 ::: {.column width="100%"}
 ## Sync Local Directory with S3 Bucket
-
-
 :::
 :::
 
-
-
-<span class="updating">(updating ...)</span>
+[(updating ...)]{.updating}

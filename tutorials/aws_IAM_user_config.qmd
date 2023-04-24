@@ -1,5 +1,5 @@
 ---
-title: "Create AWS IAM Users and Configure User Permisions for select AWS Cloud Services with IAM Policies (with R)"
+title: "Create AWS IAM Users, Get Access Keys and Configure User Permisions for select AWS Cloud Services with IAM Policies (with R)"
 description: "R | Security | Cloud | Storage | Database | AWS | S3 buckets | dynamoDB | QLDB | paws package"
 format: html
 editor: visual
@@ -7,6 +7,8 @@ date: today
 ---
 
 <!-- Sendinblue Conversations {literal} -->
+
+```{=html}
 <script>
     (function(d, w, c) {
         w.SibConversationsID = '643fda89e758061ca338bf4f';
@@ -19,11 +21,11 @@ date: today
         if (d.head) d.head.appendChild(s);
     })(document, window, 'SibConversations');
 </script>
+```
 <!-- /Sendinblue Conversations {/literal} -->
 
+Secure your Amazon Cloud Service by defining IAM Users, Groups and Roles, retreiving Access Keys and using IAM policies to **control** permissions assigned. Create Clients to connect to AWS Identity and Access Management with the paws::iam() and select Amazon Cloud Services:
 
-Secure your Amazon Cloud Service by defining <span>IAM Users, Groups and Roles</span> with **access** and using <span>IAM policies</span> to **control** permissions assigned. Create <span>Clients</span> to connect to <span>AWS Identity and Access Management</span> with the <span>paws::iam()</span> and select Amazon Cloud Services:
+Amazon Simple Storage with the paws::s3(), Amazon DynamoDB with the paws::dynamodb(), ... , Amazon QLDB with the paws::qldb()
 
-<span>Amazon Simple Storage</span> with the <span>paws::s3()</span>, <span>Amazon DynamoDB</span> with the <span>paws::dynamodb()</span>, ... , <span>Amazon QLDB</span> with the <span>paws::qldb()</span>
-
-<span class="updating">(updating ...)</span>
+[(updating ...)]{.updating}

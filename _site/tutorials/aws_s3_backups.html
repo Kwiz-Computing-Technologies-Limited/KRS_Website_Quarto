@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2023-04-20">
+<meta name="dcterms.date" content="2023-04-24">
 <meta name="description" content="R | Backup | Cloud | Storage | AWS | S3 buckets | paws package | aws.s3 package">
 
 <title>Kwiz Computing Technologies - Sync Local Files/Folders to/from AWS S3 (with R)</title>
@@ -22,6 +22,69 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
 
@@ -132,7 +195,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">April 20, 2023</p>
+      <p class="date">April 24, 2023</p>
     </div>
   </div>
   
@@ -156,14 +219,11 @@ ul.task-list li input[type="checkbox"] {
     })(document, window, 'SibConversations');
 </script>
 <!-- /Sendinblue Conversations {/literal} -->
-<div class="cell">
-
-</div>
 <div class="columns">
 <div class="column" style="width:100%;">
-<p>Optimize backups by synchronizing local files/directories to s3 buckets on AWS cloud by: <span>Copying Local objects to S3</span> and <span>Copying S3 objects locally</span>. Create a <span>Client</span> to connect to <span>Amazon Simple Storage</span> with the <span>paws::s3()</span> and synchronize files with <span>aws.s3::s3sync()</span></p>
+<p>Optimize backups by synchronizing local files/directories to s3 buckets on AWS cloud by: Copying Local objects to S3 and Copying S3 objects locally. Create a Client to connect to Amazon Simple Storage with the paws::s3() and synchronize files with aws.s3::s3sync()</p>
 </div><div class="column" style="width:100%;">
-<p>Amazon Simple Storage Service is a <span>cost-effective</span> object storage service that allows you to store and protect any amount of data for virtually any use case. Visit <a href="https://aws.amazon.com/s3/">Amazon S3</a> for details on the features, storage classes, security, pricing… and resources on using the service.</p>
+<p>Amazon Simple Storage Service is a cost-effective object storage service that allows you to store and protect any amount of data for virtually any use case. Visit <a href="https://aws.amazon.com/s3/">Amazon S3</a> for details on the features, storage classes, security, pricing… and resources on using the service.</p>
 <p>In this tutorial, we:</p>
 </div><div class="column" style="width:5%;">
 
@@ -173,28 +233,60 @@ ul.task-list li input[type="checkbox"] {
 <strong>ASSUME</strong> you have an active AWS <a href="../tutorials/aws_IAM_user_config.html">IAM User</a> account configured inline with <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html">AWS’s IAM security best practices</a>
 </li>
 <li>
-<strong>WILL</strong> retrieve the <span>Access Keys (ACCESS_KEY_ID and SECRET_ACCESS_KEY)</span> corresponding to this user to enable us make programmatic calls to AWS
+<strong>WILL</strong> retrieve the Access Keys (ACCESS_KEY_ID and SECRET_ACCESS_KEY) corresponding to this user to enable us make programmatic calls to AWS
 </li>
 <li>
-<strong>WILL</strong> initialize <span>Client Connections</span> using the Access Keys we have retrieved to send requests to Amazon Simple Storage Service and AWS Identity and Access Management
+<strong>WILL</strong> initialize Client Connections using the Access Keys we have retrieved to send requests to Amazon Simple Storage Service and AWS Identity and Access Management
 </li>
 <li>
-<strong>WILL</strong> configure and attach an <span>IAM user policy</span> to the IAM user with permissions to perform specific actions within Amazon Simple Storage Service (AWS S3) i.e to <span> create buckets</span>, to <span> write/put objects into bucket</span> and to save/get objects from buckets<span> </span>
+<strong>WILL</strong> configure and attach an IAM user policy to the IAM user with permissions to perform specific actions within Amazon Simple Storage Service (AWS S3) i.e to create buckets, to write/put objects into bucket and to save/get objects from buckets
 </li>
 <li>
-<strong>WILL</strong> sync a Local directory/folder with an <span>existing S3 bucket</span>
+<strong>WILL</strong> sync a Local directory/folder with an existing S3 bucket
 </li>
 <li>
-<strong>WILL</strong> initialize a <span>new S3 bucket</span> and sync <span>local directory/folder</span>
+<strong>WILL</strong> initialize a new S3 bucket and sync local directory/folder
 </li>
 </ul>
 </div><div class="column" style="width:100%;">
 <section id="access-keys" class="level2">
 <h2 class="anchored" data-anchor-id="access-keys">Access Keys</h2>
+<p>Visit <a href="https://go.aws/3UZOkhR">AWS</a> and enter your 12-digit Account ID or account alias, your IAM User name and Password to sign in.</p>
+<p>If you do not have an IAM User name and password, follow the log in to your root user account and follow the <a href="../tutorials/aws_IAM_user_config.html">steps</a> to configure one.</p>
+<p>NOTE: It is <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#lock-away-credentials">best practice</a> NOT to use your root user account for your everyday tasks. Remember to secure your account with other features such as MFA.</p>
+<p>Now that you are logged in, go to Services &gt; Security, Identity, &amp; Compliance &gt; IAM</p>
+<p>Under Access Management, select Users</p>
+<p>Click on the user name your are interested in working with and on the page that opens, go to Security credentials</p>
+<p>Scroll to the Access keys section and create access key. Select the environment where you intend to use the access keys, Set description tag (optional) and retrieve your access keys. These are a pair consisting an an ACCESS_KEY_ID and a SECRET_ACCESS_KEY</p>
+<p>Let’s define environment variables with these keys as follows:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">Sys.setenv</span>(<span class="at">AWS_ACCESS_KEY_ID=</span><span class="st">"XXXXXXXXXXXXXXXXXXXX"</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">Sys.setenv</span>(<span class="at">AWS_SECRET_ACCESS_KEY=</span><span class="st">"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section>
 </div><div class="column" style="width:100%;">
 <section id="aws-client-connections" class="level2">
 <h2 class="anchored" data-anchor-id="aws-client-connections">AWS Client Connections</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(paws)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(quarto)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>iam_connection <span class="ot">=</span> <span class="cf">function</span>() {</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  paws<span class="sc">::</span><span class="fu">iam</span>(</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>    <span class="at">config =</span> <span class="fu">list</span>(</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>      <span class="at">credentials =</span> <span class="fu">list</span>(</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>        <span class="at">creds =</span> <span class="fu">list</span>(</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>          <span class="at">access_key_id =</span> <span class="fu">Sys.getenv</span>(<span class="st">"AWS_ADMIN_LOCAL_ACCESS_KEY_ID"</span>),</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>          <span class="at">secret_access_key =</span> <span class="fu">Sys.getenv</span>(<span class="st">"AWS_ADMIN_LOCAL_SECRET_ACCESS_KEY"</span>)</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>        ),</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>        <span class="at">profile =</span> <span class="fu">Sys.getenv</span>(<span class="st">"AWS_PROFILE"</span>)</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>      ),</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>      <span class="at">region =</span> <span class="fu">Sys.getenv</span>(<span class="st">"AWS_REGION"</span>)</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section>
 </div><div class="column" style="width:100%;">
 <section id="user-policy-configuration" class="level2">

@@ -6,6 +6,8 @@ editor: visual
 ---
 
 <!-- Sendinblue Conversations {literal} -->
+
+```{=html}
 <script>
     (function(d, w, c) {
         w.SibConversationsID = '643fda89e758061ca338bf4f';
@@ -18,26 +20,31 @@ editor: visual
         if (d.head) d.head.appendChild(s);
     })(document, window, 'SibConversations');
 </script>
+```
 <!-- /Sendinblue Conversations {/literal} -->
 
 ::: columns
 ::: {.column width="100%"}
-[Sync Local Files/Folders to/from AWS S3 buckets (with R)](/tutorials/aws_s3_backups.qmd) 
+[Sync Local Files/Folders to/from AWS S3 buckets (with R)](/tutorials/aws_s3_backups.qmd)
 :::
+
 ::: {.column width="5%"}
 :::
+
 ::: {.column width="95%"}
-Optimize backups by synchronizing your local files/directories to s3 buckets on AWS cloud by: <span>Copying Local objects to S3</span> and <span>Copying S3 objects locally</span>. Create a <span>Client</span> to connect to <span>Amazon Simple Storage</span> with the <span>paws::s3()</span> and syncronize your files with <span>aws.s3::s3sync()</span>
+Optimize backups by synchronizing your local files/directories to s3 buckets on AWS cloud by: Copying Local objects to S3 and Copying S3 objects locally. Create a Client to connect to Amazon Simple Storage with the paws::s3() and syncronize your files with aws.s3::s3sync()
 :::
+
 ::: {.columns width="100%"}
-[Create AWS IAM Users and Configure User Permisions for select AWS Cloud Services with IAM Policies (with R)](/tutorials/aws_IAM_user_config.qmd)
+[Create AWS IAM Users, Getting Access Keys and Configure User Permisions for select AWS Cloud Services with IAM Policies (with R)](/tutorials/aws_IAM_user_config.qmd)
 :::
-::: {.column width="5%"}
+
+::: {.column width="5%" style="color:"#ad9882"}
 :::
+
 ::: {.column width="95%"}
-Secure your Amazon Cloud Service by defining <span>IAM Users, Groups and Roles</span> with **access** and using <span>IAM policies</span> to **control** permissions assigned. Create <span>Clients</span> to connect to <span>AWS Identity and Access Management</span> with the <span>paws::iam()</span> and select Amazon Cloud Services:
+Secure your Amazon Cloud Service by defining IAM Users, Groups and Roles with **access** and using IAM policies to **control** permissions assigned. Create Clients to connect to AWS Identity and Access Management with the paws::iam() and select Amazon Cloud Services:
 
-<span>Amazon Simple Storage</span> with the <span>paws::s3()</span>, <span>Amazon DynamoDB</span> with the <span>paws::dynamodb()</span>, ... , <span>Amazon QLDB</span> with the <span>paws::qldb()</span>
+Amazon Simple Storage with the paws::s3(), Amazon DynamoDB with the paws::dynamodb(), ... , Amazon QLDB with the paws::qldb()
 :::
 :::
-

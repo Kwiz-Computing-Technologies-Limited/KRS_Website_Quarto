@@ -6,6 +6,8 @@ editor: visual
 ---
 
 <!-- Sendinblue Conversations {literal} -->
+
+```{=html}
 <script>
     (function(d, w, c) {
         w.SibConversationsID = '643fda89e758061ca338bf4f';
@@ -18,12 +20,13 @@ editor: visual
         if (d.head) d.head.appendChild(s);
     })(document, window, 'SibConversations');
 </script>
+```
 <!-- /Sendinblue Conversations {/literal} -->
 
 ::: rows
 ::: row
 
-![](images/Kwiz%20White%20logo%202400x1800-3-4.jpg)
+<img class="homepage_logo" src="images/Kwiz White logo 2400x1800-3-4.jpg"></img>
 
 <br> </br1> <br> </br1>
 
