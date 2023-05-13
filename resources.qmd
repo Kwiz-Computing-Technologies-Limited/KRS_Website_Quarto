@@ -39,7 +39,7 @@ Optimize backups by synchronizing your local files/directories to s3 buckets on 
 [Create AWS IAM Users, Getting Access Keys and Configure User Permisions for select AWS Cloud Services with IAM Policies (with R)](/tutorials/aws_IAM_user_config.qmd)
 :::
 
-::: {.column width="5%" style="color:"#ad9882"}
+::: {.column width="5%"}
 :::
 
 ::: {.column width="95%"}
@@ -47,4 +47,5 @@ Secure your Amazon Cloud Service by defining IAM Users, Groups and Roles with **
 
 Amazon Simple Storage with the paws::s3(), Amazon DynamoDB with the paws::dynamodb(), ... , Amazon QLDB with the paws::qldb()
 :::
+
 :::

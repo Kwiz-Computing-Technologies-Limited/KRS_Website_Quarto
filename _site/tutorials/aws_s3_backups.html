@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
-
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.2.335">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-
-<meta name="dcterms.date" content="2023-04-24">
+<meta name="dcterms.date" content="2023-05-01">
 <meta name="description" content="R | Backup | Cloud | Storage | AWS | S3 buckets | paws package | aws.s3 package">
-
 <title>Kwiz Computing Technologies - Sync Local Files/Folders to/from AWS S3 (with R)</title>
 <style>
 code{white-space: pre-wrap;}
@@ -87,7 +84,6 @@ code span.vs { color: #4070a0; } /* VerbatimString */
 code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
-
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../site_libs/clipboard/clipboard.min.js"></script>
@@ -103,8 +99,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<script id="quarto-search-options" type="application/json">{
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
@@ -122,22 +117,15 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit"
   }
-}</script>
-
-
-<link rel="stylesheet" href="../styles.css">
+}</script><link rel="stylesheet" href="../styles.css">
 </head>
-
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
-      <div class="navbar-container container-fluid">
+  <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg navbar-dark "><div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../images/Kwiz Logo Symbol 2400x1800.jpg" alt="Kwiz Computing Technologies" class="navbar-logo">
-    </a>
+    <img src="../images/Kwiz Logo Symbol 2400x1800.jpg" alt="Kwiz Computing Technologies" class="navbar-logo"></a>
     <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Kwiz Computing Technologies</span>
     </a>
@@ -147,7 +135,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
+<li class="nav-item">
     <a class="nav-link" href="../index.html">
  <span class="menu-text">Home</span></a>
   </li>  
@@ -164,21 +152,15 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
  <span class="menu-text">Consultations</span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+<div id="quarto-search" class="" title="Search"></div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
-    </nav>
-</header>
-<!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+    </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
 <h1 class="title">Sync Local Files/Folders to/from AWS S3 (with R)</h1>
 </div>
 
@@ -195,7 +177,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">April 24, 2023</p>
+      <p class="date">May 1, 2023</p>
     </div>
   </div>
   
@@ -203,8 +185,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   </div>
   
 
-</header>
+</header><div class="cell">
 
+</div>
 <!-- Sendinblue Conversations {literal} -->
 <script>
     (function(d, w, c) {
@@ -217,9 +200,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
         s.src = 'https://conversations-widget.sendinblue.com/sib-conversations.js';
         if (d.head) d.head.appendChild(s);
     })(document, window, 'SibConversations');
-</script>
-<!-- /Sendinblue Conversations {/literal} -->
-<div class="columns">
+</script><!-- /Sendinblue Conversations {/literal} --><div class="columns">
 <div class="column" style="width:100%;">
 <p>Optimize backups by synchronizing local files/directories to s3 buckets on AWS cloud by: Copying Local objects to S3 and Copying S3 objects locally. Create a Client to connect to Amazon Simple Storage with the paws::s3() and synchronize files with aws.s3::s3sync()</p>
 </div><div class="column" style="width:100%;">
@@ -249,8 +230,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </li>
 </ul>
 </div><div class="column" style="width:100%;">
-<section id="access-keys" class="level2">
-<h2 class="anchored" data-anchor-id="access-keys">Access Keys</h2>
+<section id="access-keys" class="level2"><h2 class="anchored" data-anchor-id="access-keys">Access Keys</h2>
 <p>Visit <a href="https://go.aws/3UZOkhR">AWS</a> and enter your 12-digit Account ID or account alias, your IAM User name and Password to sign in.</p>
 <p>If you do not have an IAM User name and password, follow the log in to your root user account and follow the <a href="../tutorials/aws_IAM_user_config.html">steps</a> to configure one.</p>
 <p>NOTE: It is <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#lock-away-credentials">best practice</a> NOT to use your root user account for your everyday tasks. Remember to secure your account with other features such as MFA.</p>
@@ -260,45 +240,53 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>Scroll to the Access keys section and create access key. Select the environment where you intend to use the access keys, Set description tag (optional) and retrieve your access keys. These are a pair consisting an an ACCESS_KEY_ID and a SECRET_ACCESS_KEY</p>
 <p>Let’s define environment variables with these keys as follows:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">Sys.setenv</span>(<span class="at">AWS_ACCESS_KEY_ID=</span><span class="st">"XXXXXXXXXXXXXXXXXXXX"</span>)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">Sys.setenv</span>(<span class="at">AWS_SECRET_ACCESS_KEY=</span><span class="st">"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb1"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/base/Sys.setenv.html">Sys.setenv</a></span><span class="op">(</span>AWS_ACCESS_KEY_ID<span class="op">=</span><span class="st">"yourAccessKeyID"</span><span class="op">)</span> </span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/Sys.setenv.html">Sys.setenv</a></span><span class="op">(</span>AWS_SECRET_ACCESS_KEY<span class="op">=</span><span class="st">"yourSecretAccessKey"</span><span class="op">)</span> </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-</section>
-</div><div class="column" style="width:100%;">
-<section id="aws-client-connections" class="level2">
-<h2 class="anchored" data-anchor-id="aws-client-connections">AWS Client Connections</h2>
+<p>You may also configure additional parameters for your client connections such as the <span>session token, the AWS profile and region, the endpoint</span></p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(paws)</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(quarto)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/base/Sys.setenv.html">Sys.setenv</a></span><span class="op">(</span>AWS_SESSION_TOKEN<span class="op">=</span><span class="st">"yourSessionToken"</span><span class="op">)</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/Sys.setenv.html">Sys.setenv</a></span><span class="op">(</span>AWS_PROFILE<span class="op">=</span><span class="st">"default"</span><span class="op">)</span> </span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/Sys.setenv.html">Sys.setenv</a></span><span class="op">(</span>AWS_REGION<span class="op">=</span><span class="st">"yourRegion e.g us-east-1"</span><span class="op">)</span> <span class="co"># select a region that meets your requirements</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+</div><div class="column" style="width:100%;">
+<section id="aws-client-connections" class="level2"><h2 class="anchored" data-anchor-id="aws-client-connections">AWS Client Connections</h2>
+<div class="cell">
+
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>iam_connection <span class="ot">=</span> <span class="cf">function</span>() {</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  paws<span class="sc">::</span><span class="fu">iam</span>(</span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>    <span class="at">config =</span> <span class="fu">list</span>(</span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>      <span class="at">credentials =</span> <span class="fu">list</span>(</span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>        <span class="at">creds =</span> <span class="fu">list</span>(</span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>          <span class="at">access_key_id =</span> <span class="fu">Sys.getenv</span>(<span class="st">"AWS_ADMIN_LOCAL_ACCESS_KEY_ID"</span>),</span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>          <span class="at">secret_access_key =</span> <span class="fu">Sys.getenv</span>(<span class="st">"AWS_ADMIN_LOCAL_SECRET_ACCESS_KEY"</span>)</span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>        ),</span>
-<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>        <span class="at">profile =</span> <span class="fu">Sys.getenv</span>(<span class="st">"AWS_PROFILE"</span>)</span>
-<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>      ),</span>
-<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>      <span class="at">region =</span> <span class="fu">Sys.getenv</span>(<span class="st">"AWS_REGION"</span>)</span>
-<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>    )</span>
-<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>  )</span>
-<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">iam_connection</span> <span class="op">=</span> <span class="kw">function</span><span class="op">(</span><span class="op">)</span> <span class="op">{</span></span>
+<span>  <span class="fu">paws</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/paws/man/iam.html">iam</a></span><span class="op">(</span></span>
+<span>    config <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/list.html">list</a></span><span class="op">(</span></span>
+<span>      credentials <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/list.html">list</a></span><span class="op">(</span></span>
+<span>        creds <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/list.html">list</a></span><span class="op">(</span></span>
+<span>          access_key_id <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/Sys.getenv.html">Sys.getenv</a></span><span class="op">(</span><span class="st">"AWS_ADMIN_LOCAL_ACCESS_KEY_ID"</span><span class="op">)</span>,</span>
+<span>          secret_access_key <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/Sys.getenv.html">Sys.getenv</a></span><span class="op">(</span><span class="st">"AWS_ADMIN_LOCAL_SECRET_ACCESS_KEY"</span><span class="op">)</span></span>
+<span>        <span class="op">)</span>,</span>
+<span>        profile <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/Sys.getenv.html">Sys.getenv</a></span><span class="op">(</span><span class="st">"AWS_PROFILE"</span><span class="op">)</span></span>
+<span>      <span class="op">)</span>,</span>
+<span>      region <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/Sys.getenv.html">Sys.getenv</a></span><span class="op">(</span><span class="st">"AWS_REGION"</span><span class="op">)</span></span>
+<span>    <span class="op">)</span></span>
+<span>  <span class="op">)</span></span>
+<span><span class="op">}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
+</div><div class="column" style="width:10%;">
+
+</div><div class="column" style="width:80%;">
+<p>NOTE:</p>
+<p>You can also create users, groups and roles and generate Access Keys programmatically, given that a <em>Client connection to the AWS Identity and Access Management already exists</em></p>
+</div><div class="column" style="width:10%;">
+
 </div><div class="column" style="width:100%;">
-<section id="user-policy-configuration" class="level2">
-<h2 class="anchored" data-anchor-id="user-policy-configuration">User Policy Configuration</h2>
+<section id="user-policy-configuration" class="level2"><h2 class="anchored" data-anchor-id="user-policy-configuration">User Policy Configuration</h2>
 </section>
 </div><div class="column" style="width:100%;">
-<section id="creating-new-s3-bucket" class="level2">
-<h2 class="anchored" data-anchor-id="creating-new-s3-bucket">Creating New S3 Bucket</h2>
+<section id="creating-new-s3-bucket" class="level2"><h2 class="anchored" data-anchor-id="creating-new-s3-bucket">Creating New S3 Bucket</h2>
 </section>
 </div><div class="column" style="width:100%;">
-<section id="sync-local-directory-with-s3-bucket" class="level2">
-<h2 class="anchored" data-anchor-id="sync-local-directory-with-s3-bucket">Sync Local Directory with S3 Bucket</h2>
+<section id="sync-local-directory-with-s3-bucket" class="level2"><h2 class="anchored" data-anchor-id="sync-local-directory-with-s3-bucket">Sync Local Directory with S3 Bucket</h2>
 </section>
 </div>
 </div>
@@ -306,8 +294,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 
 
-</main> <!-- /main -->
-<script id="quarto-html-after-body" type="application/javascript">
+</main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
@@ -441,12 +428,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<footer class="footer">
-  <div class="nav-footer">
+<footer class="footer"><div class="nav-footer">
     <div class="nav-footer-left">©2023: Kwiz Computing Technologies</div>   
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
-    <li class="nav-item compact">
+<li class="nav-item compact">
     <a class="nav-link" href="https://github.com/Kwiz-Computing-Technologies-Limited">
       <i class="bi bi-github" role="img">
 </i> 
@@ -459,10 +445,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </a>
   </li>  
 </ul>
-    </div>
+</div>
   </div>
 </footer>
-
 
 
 </body></html>
