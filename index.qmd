@@ -37,7 +37,17 @@ Kwiz Computing Technologies is a leading research and data science consultancy c
 :::
 
 ::: row
+::: columns
+::: {.column width="20%"}
+:::
+
+::: {.column width="60%"}
 <img src="images/Kwiz White logo 2400x1800-3-4.jpg" class="homepage_logo"/></img>
+:::
+
+::: {.column width="20%"}
+:::
+:::
 :::
 
 ::: row
