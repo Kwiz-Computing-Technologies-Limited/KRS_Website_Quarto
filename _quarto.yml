@@ -17,12 +17,12 @@ website:
       - text: "Home"
         href: index.qmd
         
+      - text: "Demos"
+        href: demos.qmd
+        
       - text: "Resource Centre"
         href: resources.qmd
         
-      - text: "Demos"
-        href: demos.qmd
-
   search: 
     location: navbar
     type: textbox  
