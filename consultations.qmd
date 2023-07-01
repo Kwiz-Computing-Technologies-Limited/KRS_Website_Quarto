@@ -8,11 +8,15 @@ editor:
 ---
 
 <!-- fontawesome icons  -->
+
+```{=html}
 <script src="https://kit.fontawesome.com/c807397498.js" crossorigin="anonymous"></script>
+```
 <!-- /fontawesome icons {/literal} -->
 
-
 <!-- Sendinblue Conversations {literal} -->
+
+```{=html}
 <script>
     (function(d, w, c) {
         w.SibConversationsID = '643fda89e758061ca338bf4f';
@@ -25,28 +29,6 @@ editor:
         if (d.head) d.head.appendChild(s);
     })(document, window, 'SibConversations');
 </script>
+```
 <!-- /Sendinblue Conversations {/literal} -->
-
-
-::: columns
-::: {.column width="20%"}
-:::
-::: {.column width="30%"}
-<a href="mailto:admin@kwizresearch.com"> <i class="fa-solid fa-envelope fa-beat fa-2xl" style="color: #ad9882;"></i>   Email </a> 
-:::
-::: {.column width="30%"}
-<a href="https://wa.me/+254748350734"> <i class="fa-brands fa-whatsapp fa-beat fa-2xl" style="color: #ad9882;"></i>  Message on WhatsApp </a>
-:::
-
-<br> </br>
-
-::: {.column width="20%"}
-:::
-::: {.column width="30%"}
-<a href="https://www.linkedin.com/company/kwizresearch/">  <i class="fa-brands fa-linkedin fa-beat fa-2xl" style="color: #ad9882;"></i>  Follow on LinkedIn </a>
-:::
-::: {.column width="30%"}
-<a href="https://github.com/Kwiz-Computing-Technologies-Limited"> <i class="fa-brands fa-github fa-beat fa-2xl" style="color: #ad9882;"></i>  Follow on Github </a>
-:::
-:::
 

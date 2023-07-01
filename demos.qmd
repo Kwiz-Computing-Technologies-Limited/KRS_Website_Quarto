@@ -8,6 +8,8 @@ header: none
 ---
 
 <!-- Sendinblue Conversations {literal} -->
+
+```{=html}
 <script>
     (function(d, w, c) {
         w.SibConversationsID = '643fda89e758061ca338bf4f';
@@ -20,24 +22,26 @@ header: none
         if (d.head) d.head.appendChild(s);
     })(document, window, 'SibConversations');
 </script>
+```
 <!-- /Sendinblue Conversations {/literal} -->
-
 
 ::: column-screen-outset
 ::: columns
 ::: {.column width="5%" height="100%"}
 :::
-::: {.column width="40%" height="300px"}
-[Business Dashboard](/business_dashboard.qmd) | [Github](<https://github.com/Kwiz-Computing-Technologies-Limited/LipaLater_Dashboard>)
+
+::: {.column width="100%" height="600px"}
+[Business Dashboard](/business_dashboard.qmd) \| [Github](https://github.com/Kwiz-Computing-Technologies-Limited/LipaLater_Dashboard)
 
 <iframe height="100%" width="100%" frameborder="2" src="https://jean-kwizera-vic.shinyapps.io/Dashboard/">
 
 </iframe>
 :::
-::: {.column width="10%" height="100%"}
-:::
-::: {.column width="40%" height="300px"}
-[Survival Analysis Calculator](/survival_dashboard.qmd) | [Github]()
+
+<br> </br>
+
+::: {.column width="100%" height="600px"}
+[Survival Analysis Calculator](/survival_dashboard.qmd) \| [Github]()
 
 <iframe height="100%" width="100%" frameborder="1" src="https://zp1mwp-jean0victor-kwizera.shinyapps.io/SurvivalAnalysisCalculator/">
 
@@ -47,25 +51,23 @@ header: none
 
 <br> </br>
 
-
 ::: columns
-::: {.column width="5%" height="100%"}
-:::
-::: {.column width="40%" height="300px"}
-[Species Mapping Dashboard](/mapping_dashboard.qmd) | [Github](<https://github.com/Kwiz-Computing-Technologies-Limited/Species-Mapping-Task>)
+::: {.column width="100%" height="600px"}
+[Species Mapping Dashboard](/mapping_dashboard.qmd) \| [Github](https://github.com/Kwiz-Computing-Technologies-Limited/Species-Mapping-Task)
 
 <iframe height="100%" width="100%" frameborder="1" src="https://zp1mwp-jean0victor-kwizera.shinyapps.io/Appsilon_code_challenge/">
 
 </iframe>
 :::
-::: {.column width="10%" height="100%"}
-:::
-::: {.column width="40%" height="300px"}
-[Website](/index.qmd) | [Github](<https://github.com/Kwiz-Computing-Technologies-Limited/KRS_Website_Quarto>)
+
+<br> </br>
+
+::: {.column width="100%" height="600px"}
+[Website](/index.qmd) \| [Github](https://github.com/Kwiz-Computing-Technologies-Limited/KRS_Website_Quarto)
 
 <iframe height="100%" width="100%" frameborder="1" src="https://www.kwizresearch.com/">
-</iframe>
 
+</iframe>
 :::
 :::
 :::

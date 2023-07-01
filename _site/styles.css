@@ -53,6 +53,22 @@ h2 { /* Header 2 */
   font-style: italic;
 }
 
+h3 {/* Header 2 */
+  color: #ad9882;
+  text-decoration: underline;     
+  text-decoration-color: #ad9882;
+  text-align: center;
+  font-style: italic;
+}
+
+h4 {/* Header 2 */
+  color: #ad9882;
+  text-decoration: underline;     
+  text-decoration-color: #ad9882;
+  text-align: left;
+  font-style: italic;
+}
+
 p {
   font-size: 23px;
   color:black;
@@ -75,7 +91,7 @@ color:#1b4a9c!important;
 }
 
 img.homepage_logo{
-  float: right;
+  float: center;
   width: 600px;
 }
 
@@ -87,8 +103,7 @@ img.homepage_logo{
 ul.b{
   list-style-image: url('images/1681364019429-4.jpg');
   text-align: left;
-  font-size: 23px;
-  font-style: italic;
+  font-size: 32px;
   color: #141c64;
   padding: 50;
 }
@@ -96,8 +111,6 @@ ul.b{
 ul.a {
   list-style-image: url('images/1681364019429-4.jpg');
   text-align: center;
-  font-size: 23px;
-  font-style: italic;
   color: #141c64;
   padding: 50;
 }

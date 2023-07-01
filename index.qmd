@@ -5,6 +5,14 @@ format: html
 editor: visual
 ---
 
+<!-- fontawesome icons  -->
+
+```{=html}
+<script src="https://kit.fontawesome.com/c807397498.js" crossorigin="anonymous"></script>
+```
+<!-- /fontawesome icons {/literal} -->
+
+
 <!-- Sendinblue Conversations {literal} -->
 
 ```{=html}
@@ -25,12 +33,11 @@ editor: visual
 
 ::: rows
 ::: row
+Kwiz Computing Technologies is a leading research and data science consultancy company specializing in enterprise applications and big data solutions. With expertise in R development, computing methods, and solutions architecture, we offer innovative and scalable solutions tailored to meet your organization's unique needs.
+:::
 
-<img class="homepage_logo" src="images/Kwiz White logo 2400x1800-3-4.jpg"></img>
-
-<br> </br1> <br> </br1>
-
-Kwiz Computing Technologies builds and maintains R shiny Applications and Algorithms for Computational and Enteprise workflows. We develop lean applications optimized for scale and security
+::: row
+<img src="images/Kwiz White logo 2400x1800-3-4.jpg" class="homepage_logo"/></img>
 :::
 
 ::: row
@@ -38,47 +45,80 @@ Kwiz Computing Technologies builds and maintains R shiny Applications and Algori
 
 ::: row
 ::: columns
-::: {.column width="50%"}
-We:
+::: {.column width="100%"}
+### Our Services
 
-<div>
+#### R Shiny Application Development
 
-<ul class="a">
+We specialize in building and maintaining R Shiny applications and algorithms for computational and enterprise workflows. Our team develops lean applications optimized for scale and security, ensuring robust performance and seamless user experiences.
 
-<li>Build Sky Computing Infrastructure</li>
+#### Sky Computing Infrastructure
 
-<li>Build Dashboards and Interactive Web Pages</li>
+We build sky computing infrastructures using cutting-edge technologies, enabling you to leverage the power of the cloud for your data science and analytics needs. Our expertise in R, Python, React, and cloud infrastructure providers like AWS allows us to design and implement sophisticated and scalable solutions.
 
-<li>Consult on and Implement Advanced Statistical Models</li>
+#### Dashboards and Interactive Web Pages
 
-<li>Create and Optimize Big Data Pipelines and Computational Workflows</li>
+Visualize your data effectively with our custom dashboard and interactive web page development services. We create intuitive and user-friendly interfaces that allow you to explore and analyze your data, providing valuable insights for informed decision-making.
 
-<li>Debug and Customize existing R Shiny Applications and Data Science Workflows</li>
+#### Advanced Statistical Models
 
-</ul>
+Our experienced team of data scientists and statisticians consult on and implement advanced statistical models tailored to your specific requirements. Whether it's predictive modeling, time series analysis, or machine learning algorithms, we have the expertise to help you derive meaningful insights from your data.
 
-</div>
-:::
+#### Big Data Pipelines and Computational Workflows
 
-::: {.column width="50%"}
-You Get:
+We specialize in creating and optimizing big data pipelines and computational workflows. Our team ensures efficient data processing, storage, and analysis, enabling you to harness the full potential of your data and unlock valuable insights.
 
-<div>
+#### R Shiny Application Debugging and Customization
 
-<ul class="a">
-
-<li>Robust Multicloud applications</li>
-
-<li>Lean Modular Architecture</li>
-
-<li>Fast Prototyping</li>
-
-<li>Agile Teams</li>
-
-</ul>
-
-</div>
+If you have existing R Shiny applications or data science workflows that need debugging or customization, we can help. Our experts will identify and resolve issues, optimize performance, and tailor the applications to better align with your business objectives.
 :::
 :::
+:::
+
+::: row
+::: columns
+::: {.column width="100%"}
+### Why Choose Us
+
+- *Robust Multicloud Applications:* We build reliable and scalable multicloud applications that can handle large datasets and high user traffic.
+
+- *Lean Modular Architecture:* Our applications are designed with a lean and modular architecture, ensuring flexibility and easy maintenance.
+
+- *Fast Prototyping:* We believe in rapid prototyping to quickly validate ideas and iterate towards optimal solutions.
+
+- *Agile Teams:* Our agile development approach ensures effective collaboration, quick turnarounds, and alignment with your evolving needs.
+:::
+:::
+:::
+
+:::row
+Contact us today to discuss how we can help you leverage the power of data science and achieve your business objectives.
+
+::: columns
+::: {.column width="25%"}
+<a href="mailto:admin@kwizresearch.com">
+<i class="fa-solid fa-envelope fa-beat fa-2xl" style="color: #ad9882;"></i>
+Email </a>
+:::
+
+::: {.column width="25%"}
+<a href="https://wa.me/+254748350734">
+<i class="fa-brands fa-whatsapp fa-beat fa-2xl" style="color: #ad9882;"></i>
+Message on WhatsApp </a>
+:::
+
+::: {.column width="25%"}
+<a href="https://www.linkedin.com/company/kwizresearch/">
+<i class="fa-brands fa-linkedin fa-beat fa-2xl" style="color: #ad9882;"></i>
+Follow on LinkedIn </a>
+:::
+
+::: {.column width="25%"}
+<a href="https://github.com/Kwiz-Computing-Technologies-Limited">
+<i class="fa-brands fa-github fa-beat fa-2xl" style="color: #ad9882;"></i>
+Follow on Github </a>
+:::
+:::
+
 :::
 :::

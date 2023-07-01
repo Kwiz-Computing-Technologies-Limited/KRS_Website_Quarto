@@ -22,10 +22,7 @@ website:
         
       - text: "Demos"
         href: demos.qmd
-        
-      - text: "Consultations"
-        href: consultations.qmd
-    
+
   search: 
     location: navbar
     type: textbox  
