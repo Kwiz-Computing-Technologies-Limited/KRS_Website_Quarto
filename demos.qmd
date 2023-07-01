@@ -27,11 +27,11 @@ header: none
 
 ::: column-screen-outset
 ::: columns
-::: {.column width="5%" height="100%"}
+::: {.column width="10%" height="100%"}
 :::
 
-::: {.column width="100%" height="600px"}
-[Business Dashboard](/business_dashboard.qmd) \| [Github](https://github.com/Kwiz-Computing-Technologies-Limited/LipaLater_Dashboard)
+::: {.column width="90%" height="200px"}
+[Business Dashboard: (click to expand)](/business_dashboard.qmd) \| [Github](https://github.com/Kwiz-Computing-Technologies-Limited/LipaLater_Dashboard)
 
 <iframe height="100%" width="100%" frameborder="2" src="https://jean-kwizera-vic.shinyapps.io/Dashboard/">
 
@@ -40,20 +40,25 @@ header: none
 
 <br> </br>
 
-::: {.column width="100%" height="600px"}
-[Survival Analysis Calculator](/survival_dashboard.qmd) \| [Github]()
+::: {.column width="90%" height="200px"}
+[Survival Analysis Calculator: (click to expand)](/survival_dashboard.qmd) \| [Github]()
 
 <iframe height="100%" width="100%" frameborder="1" src="https://zp1mwp-jean0victor-kwizera.shinyapps.io/SurvivalAnalysisCalculator/">
 
 </iframe>
 :::
+::: {.column width="10%" height="100%"}
+:::
+
 :::
 
 <br> </br>
 
 ::: columns
-::: {.column width="100%" height="600px"}
-[Species Mapping Dashboard](/mapping_dashboard.qmd) \| [Github](https://github.com/Kwiz-Computing-Technologies-Limited/Species-Mapping-Task)
+::: {.column width="10%" height="100%"}
+:::
+::: {.column width="90%" height="200px"}
+[Species Mapping Dashboard: (click to expand)](/mapping_dashboard.qmd) \| [Github](https://github.com/Kwiz-Computing-Technologies-Limited/Species-Mapping-Task)
 
 <iframe height="100%" width="100%" frameborder="1" src="https://zp1mwp-jean0victor-kwizera.shinyapps.io/Appsilon_code_challenge/">
 
@@ -62,12 +67,14 @@ header: none
 
 <br> </br>
 
-::: {.column width="100%" height="600px"}
-[Website](/index.qmd) \| [Github](https://github.com/Kwiz-Computing-Technologies-Limited/KRS_Website_Quarto)
+::: {.column width="90%" height="200px"}
+[Website: (click to expand)](/index.qmd) \| [Github](https://github.com/Kwiz-Computing-Technologies-Limited/KRS_Website_Quarto)
 
 <iframe height="100%" width="100%" frameborder="1" src="https://www.kwizresearch.com/">
 
 </iframe>
+:::
+::: {.column width="10%" height="100%"}
 :::
 :::
 :::
