@@ -1,7 +1,9 @@
 ---
 title: "Enterprise Applications and Big Data Solutions"
 description: "Experts in R | Computing Methods | Solutions Architecture"
-format: html
+format: 
+  html:
+    backgroundcolor: "#f4ebe4"
 editor: visual
 ---
 
@@ -11,7 +13,6 @@ editor: visual
 <script src="https://kit.fontawesome.com/c807397498.js" crossorigin="anonymous"></script>
 ```
 <!-- /fontawesome icons {/literal} -->
-
 
 <!-- Sendinblue Conversations {literal} -->
 
@@ -32,7 +33,7 @@ editor: visual
 <!-- /Sendinblue Conversations {/literal} -->
 
 ::: rows
-::: row
+::: {.row style="border-style: ridge; border-width: medium; margin-bottom: 20px; border-radius: 25px; border-color: #ad9882;"}
 Kwiz Computing Technologies is a leading research and data science consultancy company specializing in enterprise applications and big data solutions. With expertise in R development, computing methods, and solutions architecture, we offer innovative and scalable solutions tailored to meet your organization's unique needs.
 :::
 
@@ -41,8 +42,8 @@ Kwiz Computing Technologies is a leading research and data science consultancy c
 ::: {.column width="20%"}
 :::
 
-::: {.column width="60%"}
-<img src="images/Kwiz White logo 2400x1800-3-4.jpg" class="homepage_logo"/></img>
+::: {.column width="60%; margin-bottom: 20px; border-radius: 25px;"}
+<img src="images/Kwiz Main logo 2400x1800.jpg" class="homepage_logo"/></img>
 :::
 
 ::: {.column width="20%"}
@@ -50,12 +51,39 @@ Kwiz Computing Technologies is a leading research and data science consultancy c
 :::
 :::
 
-::: row
+::: {.row style="border-style: ridge; border-width: medium; margin-bottom: 20px; border-radius: 25px; border-color: #ad9882;"}
+### Vision
+
+To be a global leader in research and data science consultancy, driving positive environmental change through innovative solutions, advanced analytics, and actionable insights in the field of biodiversity, ecology, and environmental sciences.
 :::
 
-::: row
-::: columns
-::: {.column width="100%"}
+::: {.row style="border-style: ridge; border-width: medium; margin-bottom: 20px; border-radius: 25px; border-color: #ad9882;"}
+### afri currency xchange (ACX)
+
+Our mission is to revolutionize the way cross-currency transactions are conducted in the African market, capitalizing on the vast growth opportunities on the continent. With increasing globalization and cross-border transactions, there is a growing need for a simple, accessible, seamless, secure and cost-effective cross-currency solution.
+
+Our flagship solution, *afri currency xchange (ACX)* aims to address this demand by offering a seamless and secure platform for real-time peer-to-peer cross-currency transactions for the under-banked population in Africa.
+
+We are committed to leveraging technology, strategic partnerships, and customer insights to provide financial services that empower individuals and business to transact across borders in their local currencies, to foster financial inclusion and drive socio-economic progress.
+
+#### Key Features and Benefits:
+
+*Real-time Cross-Currency Transactions:* Our platform provides interoperability between mobile money platforms across Africa enabling instant payments and money transfers between African countries, providing users with greater access, flexibility and speed.
+
+*Advanced Technology Integration:* We are building a sophisticated sky computing infrastructure which seamlessly integrates technologies and cloud infrastructure providers to ensure a robust and scalable solution for our users.
+
+*Enhanced Security and transparency:* Our platform is built on the Hyperledger fabric, leveraging the blockchain technology enabling transactions that are secure, immutable, transparent and verifiable instilling trust and confidence among our users while maintaining data privacy and security.
+
+*Cost Efficiency:* By streamlining the currency exchange process and leveraging peer-to-peer matching, strategic liquidity reserves and partnerships with liquidity providers and local mobile money platforms, we reduce transaction costs, making cross-border transactions more affordable for individuals and businesses.
+
+*Global Market Reach:* Our solution caters to a broad range of users, including international traders and investors, expatriates, travelers and individuals engaged in cross-border transactions across Africa.
+
+::: {.column width="100%; style=border-style: ridge; border-width: medium; margin-bottom: 20px; border-radius: 25px; border-color: #ad9882;"}
+<img src="images/lean_canvas_ACX.svg" class="lean_canvas_ACX"/></img>
+:::
+:::
+
+::: {.row style="border-style: ridge; border-width: medium; margin-bottom: 20px; border-radius: 25px; border-color: #ad9882;"}
 ### Our Services
 
 #### R Shiny Application Development
@@ -82,53 +110,38 @@ We specialize in creating and optimizing big data pipelines and computational wo
 
 If you have existing R Shiny applications or data science workflows that need debugging or customization, we can help. Our experts will identify and resolve issues, optimize performance, and tailor the applications to better align with your business objectives.
 :::
-:::
-:::
 
-::: row
-::: columns
-::: {.column width="100%"}
+::: {.row style="border-style: ridge; border-width: medium; margin-bottom: 20px; border-radius: 25px; border-color: #ad9882;"}
 ### Why Choose Us
 
-- *Robust Multicloud Applications:* We build reliable and scalable multicloud applications that can handle large datasets and high user traffic.
+-   *Robust Multicloud Applications:* We build reliable and scalable multicloud applications that can handle large datasets and high user traffic.
 
-- *Lean Modular Architecture:* Our applications are designed with a lean and modular architecture, ensuring flexibility and easy maintenance.
+-   *Lean Modular Architecture:* Our applications are designed with a lean and modular architecture, ensuring flexibility and easy maintenance.
 
-- *Fast Prototyping:* We believe in rapid prototyping to quickly validate ideas and iterate towards optimal solutions.
+-   *Fast Prototyping:* We believe in rapid prototyping to quickly validate ideas and iterate towards optimal solutions.
 
-- *Agile Teams:* Our agile development approach ensures effective collaboration, quick turnarounds, and alignment with your evolving needs.
-:::
-:::
+-   *Agile Teams:* Our agile development approach ensures effective collaboration, quick turnarounds, and alignment with your evolving needs.
 :::
 
-:::row
+::: {.row style="border-style: ridge; border-width: medium; margin-bottom: 20px; border-radius: 25px; border-color: #ad9882;"}
 Contact us today to discuss how we can help you leverage the power of data science and achieve your business objectives.
 
 ::: columns
 ::: {.column width="25%"}
-<a href="mailto:admin@kwizresearch.com">
-<i class="fa-solid fa-envelope fa-beat fa-2xl" style="color: #ad9882;"></i>
-Email </a>
+<a href="mailto:admin@kwizresearch.com"> <i class="fa-solid fa-envelope fa-beat fa-2xl" style="color: #141c64;"></i> Email </a>
 :::
 
 ::: {.column width="25%"}
-<a href="https://wa.me/+254748350734">
-<i class="fa-brands fa-whatsapp fa-beat fa-2xl" style="color: #ad9882;"></i>
-Message on WhatsApp </a>
+<a href="https://wa.me/+254748350734"> <i class="fa-brands fa-whatsapp fa-beat fa-2xl" style="color: #141c64;"></i> Message on WhatsApp </a>
 :::
 
 ::: {.column width="25%"}
-<a href="https://www.linkedin.com/company/kwizresearch/">
-<i class="fa-brands fa-linkedin fa-beat fa-2xl" style="color: #ad9882;"></i>
-Follow on LinkedIn </a>
+<a href="https://www.linkedin.com/company/kwizresearch/"> <i class="fa-brands fa-linkedin fa-beat fa-2xl" style="color: #141c64;"></i> Follow on LinkedIn </a>
 :::
 
 ::: {.column width="25%"}
-<a href="https://github.com/Kwiz-Computing-Technologies-Limited">
-<i class="fa-brands fa-github fa-beat fa-2xl" style="color: #ad9882;"></i>
-Follow on Github </a>
+<a href="https://github.com/Kwiz-Computing-Technologies-Limited"> <i class="fa-brands fa-github fa-beat fa-2xl" style="color: #141c64;"></i> Follow on Github </a>
 :::
 :::
-
 :::
 :::

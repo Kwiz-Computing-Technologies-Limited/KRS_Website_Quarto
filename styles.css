@@ -46,25 +46,25 @@ h1_a { /* Header 1 */
 
 h2 { /* Header 2 */
   font-size: 23px;
-  color: #ad9882;
+  color: #141c64;
   text-decoration: underline;     
-  text-decoration-color: #ad9882;
+  text-decoration-color: #141c64;
   text-align: center;
   font-style: italic;
 }
 
 h3 {/* Header 2 */
-  color: #ad9882;
+  color: #141c64;
   text-decoration: underline;     
-  text-decoration-color: #ad9882;
+  text-decoration-color: #141c64;
   text-align: center;
   font-style: italic;
 }
 
 h4 {/* Header 2 */
-  color: #ad9882;
+  color: #141c64;
   text-decoration: underline;     
-  text-decoration-color: #ad9882;
+  text-decoration-color: #141c64;
   text-align: center;
   font-style: italic;
 }

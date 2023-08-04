@@ -47,9 +47,9 @@ header: none
 
 </iframe>
 :::
+
 ::: {.column width="10%" height="100%"}
 :::
-
 :::
 
 <br> </br>
@@ -57,6 +57,7 @@ header: none
 ::: columns
 ::: {.column width="10%" height="100%"}
 :::
+
 ::: {.column width="90%" height="200px"}
 [Species Mapping Dashboard: (click to expand)](/mapping_dashboard.qmd) \| [Github](https://github.com/Kwiz-Computing-Technologies-Limited/Species-Mapping-Task)
 
@@ -74,6 +75,7 @@ header: none
 
 </iframe>
 :::
+
 ::: {.column width="10%" height="100%"}
 :::
 :::
